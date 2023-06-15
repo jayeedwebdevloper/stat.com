@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px){
+    .call-us {
+            font-size: 10px;
+        }
+    
+        .line {
+            background-color: #d22126;
+            width: 20%;
+            position: absolute;
+        }
+        .phone-number {
+            font-size: 14px;
+        }
+}
+@media only screen and (max-width: 768px) {
+    .rescall {
+        display: block;
+        width: 70%;
+        margin-right: 0 !important;
+        float: right;
+    }
+    .box {
+        display: none;
+    }
+    .box2 {
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30% 0;
+        border-radius: 100%;
+        width: 100%;
+    }
+    .box2 img{
+        width: 35%;
+    }
+    .contact-number{
+        width: 15%;
+    }
+    .logo img {
+        width: 100% !important;
+    }
+    .menu-btn {
+        width: 45%;
+        margin-top: 0 !important;
+    }
+}

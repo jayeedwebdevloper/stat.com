@@ -1,0 +1,33 @@
+body {
+    background: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-us {
+    font-size: 12px;
+}
+
+.box {
+    position: relative;
+}
+
+.line {
+    background-color: #d22126;
+    width: 25%;
+    height: 2px;
+    right: 10%;
+    top: 60%;
+    position: absolute;
+}
+
+.rescall {
+    display: none;
+}
+
+.menu-btn {
+    transition: all 1s;
+}
+.menu-btn:hover {
+    background: #ad1c21;
+}
