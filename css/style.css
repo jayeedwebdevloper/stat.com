@@ -4,30 +4,57 @@ body {
     background-size: cover;
 }
 
-.call-us {
-    font-size: 12px;
+.logo {
+    width: 30%;
 }
 
-.box {
+.logo img {
+    width: 40%;
+}
+
+.contact-menu {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+.group-call {
+    width: 40%;
+    padding: 1% 0.5%;
+    height: 70px;
+}
+
+.call-us {
+    font-size: 13px;
+}
+
+.phone-number {
+    font-size: 16px;
     position: relative;
 }
 
 .line {
-    background-color: #d22126;
-    width: 25%;
-    height: 2px;
-    right: 10%;
-    top: 60%;
+    background: #d22126;
+    height: 1.5px;
+    width: 35%;
     position: absolute;
+    right: 10%;
+    top: 55%;
 }
 
-.rescall {
-    display: none;
+.call-button img {
+    padding: 20% 0;
 }
 
-.menu-btn {
-    transition: all 1s;
+.menu {
+    width: 80%;
 }
-.menu-btn:hover {
-    background: #ad1c21;
+
+.btn-2 {
+    display: none !important;
+    height: 45px;
+    width: 45px;
+}
+.btn-2 img {
+    width: 80%;
 }
