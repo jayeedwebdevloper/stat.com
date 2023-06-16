@@ -31,6 +31,10 @@
     .btn-red:hover {
         width: 55%;
     }
+
+    .shape1 {
+        margin-top: 5%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -72,6 +76,10 @@
 
     .hero {
         padding-top: 2%;
+    }
+
+    .shape1 {
+        margin-top: -10%;
     }
 }
 

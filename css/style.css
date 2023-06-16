@@ -99,8 +99,10 @@ body {
     background-position: top;
     object-fit: cover;
     padding-top: 15%;
-    padding-bottom: 10%;
 }
 .res {
     display: none;
+}
+.shape1 {
+    margin-top: 10%;
 }
