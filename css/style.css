@@ -183,4 +183,6 @@ ul.list-mantain {
 .location-map {
     border: 10px solid #fff !important;
     margin-top: 3%;
+    width: 465px;
+    height: 465px;
 }

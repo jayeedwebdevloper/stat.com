@@ -252,9 +252,17 @@
         top: 3%;
         transform: rotate(-5deg);
     }
-        .locat-btn {
-            width: 60%;
-        }
+
+    .locat-btn {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .location-map {
+        width: 365px;
+        height: 365px;
+    }
 }
 
 @media only screen and (max-width: 468px) {
@@ -307,9 +315,10 @@
     .card-box {
         margin: 2% 0;
     }
-        .locat-btn {
-            width: 80%;
-        }
+
+    .locat-btn {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 392px) {
@@ -319,6 +328,11 @@
 
     .btn-red:hover {
         width: 45%;
+    }
+
+    .location-map {
+        width: 295px;
+        height: 295px;
     }
 }
 
