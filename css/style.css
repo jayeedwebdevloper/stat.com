@@ -247,7 +247,19 @@ ul.list-mantain {
     background: #fff;
     height: 350px;
 }
-
+.card-about2 {
+    background: #fff;
+    height: 570px;
+}
+.object {
+    object-fit: fill;
+    object-position: center;
+    transform: scale(1.2);
+}
+.card-banner {
+    height: 350px;
+    overflow: hidden;
+}
 .box-red {
     background: linear-gradient(to right, #e92428, #b02022);
     color: #fff;
