@@ -451,18 +451,21 @@ ul.list-mantain {
     height: 90px;
     border-radius: 100%;
 }
+
 .topto {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
 }
+
 .bottomto {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
 }
+
 .contact {
     background: linear-gradient(to right, #d22126, #b02022);
     position: relative;
@@ -474,13 +477,16 @@ ul.list-mantain {
     position: absolute;
     left: -20%;
 }
+
 .btn-4 {
     width: 20%;
     margin-top: 5%;
 }
+
 .btn-pad {
     padding: 1.5% !important;
 }
+
 .index {
     position: absolute;
     transform: translate(-50%);
@@ -489,7 +495,104 @@ ul.list-mantain {
     top: 30%;
     width: 100%;
 }
+
 .none-img {
     transform: scale(3);
     padding-top: 50% !important;
+}
+
+.btn-group-2 {
+    margin-left: -7% !important;
+}
+
+.footer {
+    background: url(../images/footerbg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #fff;
+    padding-top: 5%;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social:hover {
+    background-color: #b73c3e;
+}
+
+.footer-li {
+    list-style: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #e92428, #b02022);
+    border-radius: 20px;
+}
+
+#loader {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 500;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-load {
+    animation: loading 3s infinite;
+    width: 10%;
+}
+
+@keyframes loading {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+#scroll {
+    background: #d22126;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    z-index: 800;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#scroll:hover {
+    background: #b02022;
+}
+html {
+    scroll-behavior: smooth;
 }

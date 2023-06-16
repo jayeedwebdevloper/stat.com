@@ -1,17 +1,17 @@
 function clickToggle(plus, minus, ans, head) {
-        plus.addEventListener('click', function() {
-            ans.style.display = 'block';
-            head.style.color = '#d22126';
-            minus.style.display = 'block';
-            minus.style.backgroundColor = '#d22126';
-            this.style.display = 'none';
-        });
-        minus.addEventListener('click', function() {
-            ans.style.display = 'none';
-            head.style.color = '#000';
-            plus.style.display = 'block';
-            this.style.display = 'none';
-        });
+    plus.addEventListener('click', function () {
+        ans.style.display = 'block';
+        head.style.color = '#d22126';
+        minus.style.display = 'block';
+        minus.style.backgroundColor = '#d22126';
+        this.style.display = 'none';
+    });
+    minus.addEventListener('click', function () {
+        ans.style.display = 'none';
+        head.style.color = '#000';
+        plus.style.display = 'block';
+        this.style.display = 'none';
+    });
 }
 
 let plus1 = document.getElementById('p1');
@@ -70,3 +70,23 @@ clickToggle(plus5, minus5, ans5, head5);
 clickToggle(plus6, minus6, ans6, head6);
 clickToggle(plus7, minus7, ans7, head7);
 clickToggle(plus8, minus8, ans8, head8);
+
+
+window.addEventListener('load', function () {
+    const loader = document.getElementById('loader');
+    loader.style.display = 'none';
+});
+
+let scrollbar = document.getElementById('scroll');
+scrollbar.style.opacity = '0';
+
+window.addEventListener('scroll', (e) => {
+    if(window.pageYOffset > 5) {
+        scrollbar.style.opacity = '1';
+    } else {
+        scrollbar.style.opacity = '0';
+    }
+});
+scrollbar.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+})
