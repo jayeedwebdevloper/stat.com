@@ -202,3 +202,7 @@ ul.list-mantain {
     background: #fff;
     height: 350px;
 }
+.box-red {
+    background: linear-gradient(to right, #e92428, #b02022);
+    color: #fff;
+}

@@ -12,6 +12,12 @@
     .lineShape {
         background-size: 60%;
     }
+    .red-content h3 {
+        font-size: 20px;
+    }
+    .red-content p {
+        font-size: 14px;
+    }
 
 }
 
@@ -64,6 +70,16 @@
     .locat-btn {
         width: 65%;
     }
+    .red-content {
+        padding-left: 1% !important;
+    }
+        .red-content h3 {
+            font-size: 18px;
+        }
+    
+        .red-content p {
+            font-size: 12px;
+        }
 }
 
 @media only screen and (max-width: 1192px) {
@@ -205,6 +221,21 @@
     .card-about {
         height: 430px;
     }
+        .red-content {
+            padding-left: 0 !important;
+            padding-bottom: 10%;
+        }
+        .red-brand {
+            padding-top: 10% I !important;
+        }
+    
+        .red-content h3 {
+            font-size: 30px;
+        }
+    
+        .red-content p {
+            font-size: 20px;
+        }
 }
 
 @media only screen and (max-width: 768px) {
@@ -275,6 +306,13 @@
         width: 365px;
         height: 365px;
     }
+         .red-content h3 {
+             font-size: 25px;
+         }
+    
+         .red-content p {
+             font-size: 17px;
+         }
 }
 
 @media only screen and (max-width: 468px) {
