@@ -77,6 +77,7 @@ section {
     transition: all 0.5s;
     width: 40%;
 }
+
 .btn-red2 {
     background: linear-gradient(to right, #e92428, #b02022);
     color: #fff;
@@ -92,6 +93,7 @@ section {
     color: #fff;
     width: 45%;
 }
+
 .btn-red2:hover {
     background: linear-gradient(to left, #e92428, #b02022);
     color: #fff;
@@ -106,6 +108,7 @@ section {
     margin-left: 5%;
     transition: all 0.5s;
 }
+
 .btn-red2 .arrow-right {
     background: #ffffff6b;
     display: inline;
@@ -118,6 +121,7 @@ section {
 .btn-red:hover .arrow-right {
     margin-left: 15%;
 }
+
 .btn-red2:hover .arrow-right {
     margin-left: 15%;
 }
@@ -169,6 +173,7 @@ section {
     left: -5%;
     bottom: 13%;
 }
+
 .shape4 {
     position: absolute;
     left: -5%;
@@ -329,10 +334,12 @@ ul.list-mantain {
     background-size: cover;
     position: relative;
 }
+
 .list-question {
     width: 70%;
     margin: auto;
 }
+
 #ans1,
 #ans2,
 #ans3,
@@ -343,6 +350,7 @@ ul.list-mantain {
 #ans8 {
     display: none;
 }
+
 #m1,
 #m2,
 #m3,
@@ -352,4 +360,52 @@ ul.list-mantain {
 #m7,
 #m8 {
     display: none;
+}
+
+.support {
+    background: url(../images/bgi.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00000065;
+    position: relative;
+    background-blend-mode: multiply;
+}
+
+.shape5 {
+    position: absolute;
+    right: -5%;
+    top: 5%;
+}
+
+.custom {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #d22126;
+}
+
+.padding {
+    padding-bottom: 25%;
+}
+
+.rot {
+    transform: rotate(180deg);
+}
+
+.call-us2 {
+    font-size: 15px !important;
+    text-align: center;
+}
+
+.number {
+    color: #d22126;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d22126;
+}
+
+.btn-3 {
+    position: absolute;
+    bottom: 10%;
+    transform: translate(-50%);
+    left: 50%;
 }
