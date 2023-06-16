@@ -12,15 +12,19 @@
     .lineShape {
         background-size: 60%;
     }
+
     .red-content h3 {
         font-size: 20px;
     }
+
     .red-content p {
         font-size: 14px;
     }
+
     .chose-img {
         width: 90% !important;
     }
+
     .choose-content h5 {
         font-size: 18px;
         padding-left: 5% !important;
@@ -77,26 +81,104 @@
     .locat-btn {
         width: 65%;
     }
+
     .red-content {
         padding-left: 1% !important;
     }
-        .red-content h3 {
-            font-size: 18px;
-        }
-    
-        .red-content p {
-            font-size: 12px;
-        }
-        .choose-content img {
-            width: 25% !important;
-        }
-        .choose-box {
-            height: 80px;
-            width: 80px;
-        }
-        .chose-img {
-            width: 100% !important;
-        }
+
+    .red-content h3 {
+        font-size: 18px;
+    }
+
+    .red-content p {
+        font-size: 12px;
+    }
+
+    .choose-content img {
+        width: 25% !important;
+    }
+
+    .choose-box {
+        height: 80px;
+        width: 80px;
+    }
+
+    .chose-img {
+        width: 100% !important;
+    }
+
+    .circle-1 {
+        transform: translate(-75%);
+    }
+
+    .circle-1 h5 {
+        font-size: 20px;
+    }
+
+    .circle-1 p {
+        font-size: 15px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        transform: translate(-92%, 180%);
+    }
+
+    .circle-2 h5 {
+        font-size: 20px;
+    }
+
+    .circle-2 p {
+        font-size: 15px;
+        padding: 0 10%;
+        padding-right: 0;
+    }
+
+    .circle-3 {
+        position: absolute;
+        transform: translate(0, 200%);
+    }
+
+    .circle-3 h5 {
+        font-size: 20px;
+    }
+
+    .circle-3 p {
+        font-size: 15px;
+    }
+
+    .circle-4 {
+        position: absolute;
+        transform: translate(92%, 220%);
+    }
+
+    .circle-4 h5 {
+        font-size: 20px;
+    }
+
+    .circle-4 p {
+        font-size: 15px;
+        padding: 0 20% !important;
+        padding-left: 0 !important;
+    }
+
+    .circle-5 {
+        position: absolute;
+        transform: translate(75%);
+    }
+
+    .circle-5 h5 {
+        font-size: 20px;
+    }
+
+    .circle-5 p {
+        font-size: 15px;
+    }
+
+    .circle-box img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 @media only screen and (max-width: 1192px) {
@@ -137,6 +219,18 @@
     }
 }
 
+@media only screen and (max-width: 1100px) {
+    .circle-area {
+        width: 400px;
+        height: 400px;
+    }
+
+    .circle-3 {
+        position: absolute;
+        transform: translate(0, 160%);
+    }
+}
+
 @media only screen and (max-width: 1068px) {
     .bottom-red {
         margin-top: -7%;
@@ -154,6 +248,75 @@
 
     .meter-img {
         margin-top: 28%;
+    }
+
+    .circle-area {
+        width: 350px;
+        height: 350px;
+    }
+
+    .circle-3 {
+        position: absolute;
+        transform: translate(0, 140%);
+    }
+
+    .circle-2 {
+        position: absolute;
+        transform: translate(-92%, 170%);
+    }
+
+    .circle-3 {
+        position: absolute;
+        transform: translate(0, 190%);
+    }
+
+    .circle-box img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle-1 h5 {
+        font-size: 17px;
+    }
+
+    .circle-1 p {
+        font-size: 12px;
+    }
+
+    .circle-2 h5 {
+        font-size: 17px;
+    }
+
+    .circle-2 p {
+        font-size: 12px;
+        padding: 0 10%;
+        padding-right: 0;
+    }
+
+    .circle-3 h5 {
+        font-size: 17px;
+    }
+
+    .circle-3 p {
+        font-size: 12px;
+    }
+
+    .circle-4 h5 {
+        font-size: 17px;
+    }
+
+    .circle-4 p {
+        font-size: 12px;
+        padding: 0 20% !important;
+        padding-left: 0 !important;
+    }
+
+    .circle-5 h5 {
+        font-size: 17px;
+    }
+
+    .circle-5 p {
+        font-size: 12px;
     }
 }
 
@@ -238,21 +401,24 @@
     .card-about {
         height: 430px;
     }
-        .red-content {
-            padding-left: 0 !important;
-            padding-bottom: 10%;
-        }
-        .red-brand {
-            padding-top: 10% I !important;
-        }
-    
-        .red-content h3 {
-            font-size: 30px;
-        }
-    
-        .red-content p {
-            font-size: 20px;
-        }
+
+    .red-content {
+        padding-left: 0 !important;
+        padding-bottom: 10%;
+    }
+
+    .red-brand {
+        padding-top: 10% I !important;
+    }
+
+    .red-content h3 {
+        font-size: 30px;
+    }
+
+    .red-content p {
+        font-size: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -316,6 +482,7 @@
     .card-about {
         height: 330px;
     }
+    
 }
 
 @media only screen and (max-width: 500px) {
@@ -323,13 +490,17 @@
         width: 365px;
         height: 365px;
     }
-         .red-content h3 {
-             font-size: 25px;
-         }
-    
-         .red-content p {
-             font-size: 17px;
-         }
+
+    .red-content h3 {
+        font-size: 25px;
+    }
+
+    .red-content p {
+        font-size: 17px;
+    }
+        .appro2 {
+            background-position-x: 12%;
+        }
 }
 
 @media only screen and (max-width: 468px) {
@@ -353,9 +524,10 @@
         top: 3%;
         width: 60%;
     }
-        .card-about {
-            height: 370px;
-        }
+
+    .card-about {
+        height: 370px;
+    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -389,6 +561,7 @@
     .locat-btn {
         width: 80%;
     }
+
     .choose-content h5 {
         font-size: 15px;
         padding-left: 8% !important;
@@ -408,12 +581,14 @@
         width: 295px;
         height: 295px;
     }
-        .card-about {
-            height: 430px;
-        }
-                .choose-content h5 {
-                    padding-left: 12% !important;
-                }
+
+    .card-about {
+        height: 430px;
+    }
+
+    .choose-content h5 {
+        padding-left: 12% !important;
+    }
 }
 
 @media only screen and (max-width: 350px) {
@@ -424,7 +599,11 @@
     .btn-red:hover {
         width: 50%;
     }
-        .choose-content h5 {
-            padding-left: 17% !important;
+
+    .choose-content h5 {
+        padding-left: 17% !important;
+    }
+        .appro2 {
+            background-position-x: 16%;
         }
 }

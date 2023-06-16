@@ -158,10 +158,12 @@ section {
 ul.list-mantain {
     list-style: url(../images/list-style.png);
 }
+
 .location-btn {
     text-align: start;
     padding-left: 5%;
 }
+
 .locat-btn {
     background: linear-gradient(to right, #e92428, #b02022);
     padding-left: 1%;
@@ -170,38 +172,47 @@ ul.list-mantain {
     transition: all 0.5s;
     width: 45%;
 }
+
 .locat-btn:hover {
-    background: linear-gradient(to left, #e92428, #b02022); 
+    background: linear-gradient(to left, #e92428, #b02022);
 }
+
 .call {
     width: 50px;
     height: 50px;
 }
+
 .locat-btn p {
     font-size: 14px;
 }
+
 .location-map {
     border: 10px solid #fff !important;
     margin-top: 3%;
     width: 465px;
     height: 465px;
 }
+
 .arrow-btn {
     transition: all 0.5s;
 }
+
 .arrow-btn:hover {
     background: #d22126 !important;
     color: #fff;
 }
+
 .review svg {
     fill: #fcc153;
     margin: 2px;
     cursor: pointer;
 }
+
 .card-about {
     background: #fff;
     height: 350px;
 }
+
 .box-red {
     background: linear-gradient(to right, #e92428, #b02022);
     color: #fff;
@@ -212,8 +223,58 @@ ul.list-mantain {
     text-underline-offset: 10px;
     text-decoration-color: #d22126;
 }
+
 .choose-box {
     height: 100px;
     width: 100px;
     background: #fff;
+}
+
+.approach {
+    background: #fbfbfb;
+}
+
+.circle-area {
+    width: 450px;
+    height: 450px;
+    border: 8px solid #e2e2e2;
+}
+
+.mid {
+    width: 70%;
+}
+.circle-box img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 5px #0000004a;
+    border-radius: 100%;
+}
+
+.circle-area {
+    position: relative;
+}
+
+.circle-1 {
+    position: absolute;
+    transform: translate(-75%);
+}
+.circle-2 {
+    position: absolute;
+    transform: translate(-92%, 180%);
+}
+.circle-3 {
+    position: absolute;
+    transform: translate(0, 160%);
+}
+.circle-4 {
+    position: absolute;
+    transform: translate(92%, 200%);
+}
+.circle-5 {
+    position: absolute;
+    transform: translate(75%);
+}
+.appro2 {
+    background: url(../images/line-approch.png) no-repeat;
+    background-position-x: 7%;
 }
