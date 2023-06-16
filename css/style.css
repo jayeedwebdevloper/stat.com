@@ -409,3 +409,29 @@ ul.list-mantain {
     transform: translate(-50%);
     left: 50%;
 }
+
+.card-condition {
+    border-radius: 20px;
+    padding: 5% 6%;
+    height: 350px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card-condition:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.card-condition:hover .icon {
+    background: rgba(220, 53, 69, 1);
+}
+
+.card-log {
+    margin-bottom: 10%;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
