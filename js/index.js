@@ -72,10 +72,10 @@ clickToggle(plus7, minus7, ans7, head7);
 clickToggle(plus8, minus8, ans8, head8);
 
 
-window.addEventListener('load', function () {
-    const loader = document.getElementById('loader');
-    loader.style.display = 'none';
-});
+// window.addEventListener('load', function () {
+//     const loader = document.getElementById('loader');
+//     loader.style.display = 'none';
+// });
 
 let scrollbar = document.getElementById('scroll');
 scrollbar.style.opacity = '0';
