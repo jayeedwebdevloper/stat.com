@@ -92,6 +92,7 @@ body {
 .btn-red:hover .arrow-right {
     margin-left: 15%;
 }
+
 .hero {
     background: url(../images/hero.png);
     background-repeat: no-repeat;
@@ -100,9 +101,23 @@ body {
     object-fit: cover;
     padding-top: 15%;
 }
+
 .res {
     display: none;
 }
+
 .shape1 {
     margin-top: 10%;
+}
+
+.lineShape {
+    background: url(../images/line-shape.png) no-repeat;
+    background-position-y: 20%;
+    background-position-x: center;
+    background-size: auto;
+    padding: 3% 0;
+}
+.cart-img {
+    height: 130px;
+    width: 130px;
 }
