@@ -201,6 +201,10 @@
     .locat-btn {
         width: 40%;
     }
+
+    .card-about {
+        height: 430px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -256,6 +260,14 @@
     .locat-btn {
         width: 60%;
     }
+
+    .second-card-about {
+        display: none;
+    }
+
+    .card-about {
+        height: 330px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -286,6 +298,9 @@
         top: 3%;
         width: 60%;
     }
+        .card-about {
+            height: 370px;
+        }
 }
 
 @media only screen and (max-width: 430px) {
@@ -334,6 +349,9 @@
         width: 295px;
         height: 295px;
     }
+        .card-about {
+            height: 430px;
+        }
 }
 
 @media only screen and (max-width: 350px) {

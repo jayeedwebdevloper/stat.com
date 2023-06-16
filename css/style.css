@@ -186,3 +186,19 @@ ul.list-mantain {
     width: 465px;
     height: 465px;
 }
+.arrow-btn {
+    transition: all 0.5s;
+}
+.arrow-btn:hover {
+    background: #d22126 !important;
+    color: #fff;
+}
+.review svg {
+    fill: #fcc153;
+    margin: 2px;
+    cursor: pointer;
+}
+.card-about {
+    background: #fff;
+    height: 350px;
+}
