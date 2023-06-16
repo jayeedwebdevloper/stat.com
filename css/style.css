@@ -77,11 +77,25 @@ section {
     transition: all 0.5s;
     width: 40%;
 }
+.btn-red2 {
+    background: linear-gradient(to right, #e92428, #b02022);
+    color: #fff;
+    font-weight: 500;
+    padding: 3% 4%;
+    padding-right: 0;
+    transition: all 0.5s;
+    width: 25%;
+}
 
 .btn-red:hover {
     background: linear-gradient(to left, #e92428, #b02022);
     color: #fff;
     width: 45%;
+}
+.btn-red2:hover {
+    background: linear-gradient(to left, #e92428, #b02022);
+    color: #fff;
+    width: 30%;
 }
 
 .btn-red .arrow-right {
@@ -92,8 +106,19 @@ section {
     margin-left: 5%;
     transition: all 0.5s;
 }
+.btn-red2 .arrow-right {
+    background: #ffffff6b;
+    display: inline;
+    padding: 5% 6%;
+    border-radius: 100%;
+    margin-left: 5%;
+    transition: all 0.5s;
+}
 
 .btn-red:hover .arrow-right {
+    margin-left: 15%;
+}
+.btn-red2:hover .arrow-right {
     margin-left: 15%;
 }
 
@@ -140,6 +165,11 @@ section {
 }
 
 .shape2 {
+    position: absolute;
+    left: -5%;
+    bottom: 13%;
+}
+.shape4 {
     position: absolute;
     left: -5%;
     bottom: 13%;
@@ -297,6 +327,7 @@ ul.list-mantain {
     background-position-x: center;
     background-position-y: top;
     background-size: cover;
+    position: relative;
 }
 .list-question {
     width: 70%;

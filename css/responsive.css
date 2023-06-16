@@ -2,11 +2,19 @@
     .btn-red {
         width: 43%;
     }
+    .btn-red2 {
+        width: 33%;
+    }
 
     .btn-red:hover {
         background: linear-gradient(to left, #e92428, #b02022);
         color: #fff;
         width: 48%;
+    }
+    .btn-red2:hover {
+        background: linear-gradient(to left, #e92428, #b02022);
+        color: #fff;
+        width: 38%;
     }
 
     .lineShape {
@@ -351,10 +359,18 @@
         padding: 2% 5%;
         padding-right: 0;
     }
+    .btn-red2 {
+        width: 23%;
+        padding: 2% 0;
+        padding-left: 3%;
+    }
 
 
     .btn-red:hover {
         width: 27%;
+    }
+    .btn-red2:hover {
+        width: 25%;
     }
 
     .hero {
@@ -446,10 +462,16 @@
     .btn-red {
         width: 32%;
     }
+    .btn-red2 {
+        width: 30%;
+    }
 
 
     .btn-red:hover {
         width: 37%;
+    }
+    .btn-red2:hover {
+        width: 34%;
     }
 
     .lineShape {
@@ -534,6 +556,12 @@
 }
 
 @media only screen and (max-width: 430px) {
+    .btn-red2{
+        width: 38%;
+    }
+    .btn-red2:hover{
+        width: 43%;
+    }
     .logo img {
         width: 70%;
     }
@@ -578,6 +606,13 @@
 
     .btn-red:hover {
         width: 45%;
+    }
+    .btn-red2 {
+        width: 50%;
+    }
+
+    .btn-red2:hover {
+        width: 55%;
     }
 
     .location-map {
