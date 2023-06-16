@@ -1,3 +1,16 @@
+@media only screen and (max-width: 1400px) {
+    .btn-red {
+        width: 43%;
+    }
+
+    .btn-red:hover {
+        background: linear-gradient(to left, #e92428, #b02022);
+        color: #fff;
+        width: 48%;
+    }
+
+}
+
 @media only screen and (max-width: 1200px) {
     .call-us {
         font-size: 10px;
@@ -10,9 +23,21 @@
     .phone-number {
         font-size: 14px;
     }
+
+    .btn-red {
+        width: 50%;
+    }
+
+    .btn-red:hover {
+        width: 55%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
+    .res {
+        display: block;
+    }
+
     .btn-1 {
         display: none !important;
     }
@@ -27,6 +52,26 @@
 
     .menu-btn {
         padding: 0;
+    }
+
+    .hero {
+        background: transparent;
+        text-align: center;
+    }
+
+    .btn-red {
+        width: 25%;
+        padding: 2% 5%;
+        padding-right: 0;
+    }
+
+
+    .btn-red:hover {
+        width: 27%;
+    }
+
+    .hero {
+        padding-top: 2%;
     }
 }
 
@@ -48,6 +93,26 @@
     .logo img {
         width: 50%;
     }
+
+    .btn-red {
+        width: 32%;
+    }
+
+
+    .btn-red:hover {
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .btn-red {
+        width: 38%;
+    }
+
+
+    .btn-red:hover {
+        width: 42%;
+    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -68,5 +133,25 @@
 
     .btn-2 img {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 392px) {
+    .btn-red {
+        width: 42%;
+    }
+
+    .btn-red:hover {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .btn-red {
+        width: 48%;
+    }
+
+    .btn-red:hover {
+        width: 50%;
     }
 }

@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body {
-    background: url(../images/hero.png);
+    background: url(../images/heroBg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
 }
 
 .logo {
@@ -55,6 +59,48 @@ body {
     height: 45px;
     width: 45px;
 }
+
 .btn-2 img {
     width: 80%;
+}
+
+.btn-red {
+    background: linear-gradient(to right, #e92428, #b02022);
+    color: #fff;
+    font-weight: 500;
+    padding: 3% 7%;
+    padding-right: 0;
+    transition: all 0.5s;
+    width: 40%;
+}
+
+.btn-red:hover {
+    background: linear-gradient(to left, #e92428, #b02022);
+    color: #fff;
+    width: 45%;
+}
+
+.btn-red .arrow-right {
+    background: #ffffff6b;
+    display: inline;
+    padding: 5% 6%;
+    border-radius: 100%;
+    margin-left: 5%;
+    transition: all 0.5s;
+}
+
+.btn-red:hover .arrow-right {
+    margin-left: 15%;
+}
+.hero {
+    background: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.res {
+    display: none;
 }
