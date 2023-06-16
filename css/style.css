@@ -158,3 +158,29 @@ section {
 ul.list-mantain {
     list-style: url(../images/list-style.png);
 }
+.location-btn {
+    text-align: start;
+    padding-left: 5%;
+}
+.locat-btn {
+    background: linear-gradient(to right, #e92428, #b02022);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: all 0.5s;
+    width: 45%;
+}
+.locat-btn:hover {
+    background: linear-gradient(to left, #e92428, #b02022); 
+}
+.call {
+    width: 50px;
+    height: 50px;
+}
+.locat-btn p {
+    font-size: 14px;
+}
+.location-map {
+    border: 10px solid #fff !important;
+    margin-top: 3%;
+}
