@@ -243,6 +243,7 @@ ul.list-mantain {
 .mid {
     width: 70%;
 }
+
 .circle-box img {
     width: 100px;
     height: 100px;
@@ -258,26 +259,66 @@ ul.list-mantain {
     position: absolute;
     transform: translate(-75%);
 }
+
 .circle-2 {
     position: absolute;
     transform: translate(-92%, 180%);
 }
+
 .circle-3 {
     position: absolute;
     transform: translate(0, 160%);
 }
+
 .circle-4 {
     position: absolute;
     transform: translate(92%, 200%);
 }
+
 .circle-5 {
     position: absolute;
     transform: translate(75%);
 }
+
 .appro2 {
     background: url(../images/line-approch.png) no-repeat;
     background-position-x: 7%;
 }
+
 .approach {
-    padding-bottom: 16%;
+    padding-bottom: 12%;
+}
+
+.question {
+    background-image: url(../images/ques.png);
+    background-color: #fbfbfb;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+}
+.list-question {
+    width: 70%;
+    margin: auto;
+}
+#ans1,
+#ans2,
+#ans3,
+#ans4,
+#ans5,
+#ans6,
+#ans7,
+#ans8 {
+    display: none;
+}
+#m1,
+#m2,
+#m3,
+#m4,
+#m5,
+#m6,
+#m7,
+#m8 {
+    display: none;
 }
