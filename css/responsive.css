@@ -14,6 +14,21 @@
     }
 
 }
+@media only screen and (max-width: 1350px) {
+    .bottom-red {
+            margin-top: -6%;
+        }
+    
+        .shape2 {
+            left: -14%;
+            bottom: 13%;
+        }
+    
+        .shape3 {
+            right: -14%;
+            top: 8%;
+        }
+}
 
 @media only screen and (max-width: 1200px) {
     .call-us {
@@ -43,6 +58,58 @@
     .cart-img {
         height: 100px;
         width: 100px;
+    }
+}
+@media only screen and (max-width: 1192px) {
+    .bottom-red {
+        margin-top: -7%;
+    }
+
+    .shape2 {
+        left: -14%;
+        bottom: 13%;
+    }
+
+    .shape3 {
+        right: -14%;
+        top: 8%;
+    }
+    .meter-img {
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width: 1130px) {
+    .bottom-red {
+        margin-top: -7%;
+    }
+
+    .shape2 {
+        left: -20%;
+    }
+
+    .shape3 {
+        right: -20%;
+    }
+    .meter-img {
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .bottom-red {
+        margin-top: -7%;
+    }
+
+    .shape2 {
+        left: -25%;
+        transform: rotate(3deg);
+    }
+
+    .shape3 {
+        right: -25%;
+        transform: rotate(3deg);
+    }
+    .meter-img {
+        margin-top: 28%;
     }
 }
 
@@ -90,6 +157,32 @@
     .shape1 {
         margin-top: -10%;
     }
+        .maintenance {
+            background-position: center;
+            background-size: cover;
+        }
+                .bottom-red {
+                    margin-top: -7%;
+                }
+        
+                .shape2 {
+                    bottom: 6%;
+                    left: -30%;
+                    transform: rotate(0deg);
+                }
+        
+                .shape3 {
+                    right: -25%;
+                    top: 3%;
+                    transform: rotate(0deg);
+                }
+        
+                .meter-img {
+                    margin-top: 5%;
+                }
+                .man {
+                    padding-top: 10%;
+                }
 }
 
 @media only screen and (max-width: 768px) {
@@ -128,6 +221,17 @@
     .card-box {
         margin: 2% 0;
     }
+        .shape2 {
+            bottom: 6%;
+            left: -50%;
+            transform: rotate(-5deg);
+        }
+    
+        .shape3 {
+            right: -45%;
+            top: 3%;
+            transform: rotate(-5deg);
+        }
 }
 
 @media only screen and (max-width: 468px) {
@@ -139,6 +243,17 @@
     .btn-red:hover {
         width: 42%;
     }
+        .shape2 {
+            bottom: 6%;
+            left: -5%;
+            width: 60%;
+        }
+    
+        .shape3 {
+            right: -5%;
+            top: 3%;
+            width: 60%;
+        }
 }
 
 @media only screen and (max-width: 430px) {

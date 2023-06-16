@@ -28,6 +28,10 @@ body {
     height: 70px;
 }
 
+section {
+    overflow: hidden;
+}
+
 .call-us {
     font-size: 13px;
 }
@@ -117,7 +121,40 @@ body {
     background-size: auto;
     padding: 3% 0;
 }
+
 .cart-img {
     height: 130px;
     width: 130px;
+}
+
+.maintenance {
+    background-image: url(../images/red-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    position: relative;
+}
+
+.bottom-red {
+    margin-top: -8%;
+}
+
+.shape2 {
+    position: absolute;
+    left: -5%;
+    bottom: 13%;
+}
+
+.shape3 {
+    position: absolute;
+    right: -8%;
+    top: 8%;
+}
+
+.redish {
+    color: #eba7a8;
+}
+
+ul.list-mantain {
+    list-style: url(../images/list-style.png);
 }
