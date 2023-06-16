@@ -206,3 +206,14 @@ ul.list-mantain {
     background: linear-gradient(to right, #e92428, #b02022);
     color: #fff;
 }
+
+.choose-head span {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #d22126;
+}
+.choose-box {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+}
