@@ -81,9 +81,18 @@
     .btn-red2 {
         width: 33%;
     }
+    .group-call {
+        width: 50%;
+    }
     .group-call-1 {
         margin-top: 2% !important;
     }
+        .btn-mode {
+            font-size: 10px;
+            padding: 5%;
+        }
+    
+       
 
     .btn-red:hover {
         background: linear-gradient(to left, #e92428, #b02022);
@@ -183,9 +192,26 @@
         .contact h1 {
             font-size: 30px;
         }
+        .group-call {
+            height: 70px;
+        }
         .group-call-1 {
             width: 20% !important;
         }
+                .btn-mode {
+                    font-size: 8px;
+                    padding: 3%;
+                }
+        
+                #light {
+                    width: 25px;
+                    height: 25px;
+                }
+        
+                #dark {
+                    width: 25px;
+                    height: 25px;
+                }
     .call-us {
         font-size: 10px;
     }
@@ -520,6 +546,21 @@
 }
 
 @media only screen and (max-width: 992px) {
+    #nameMode {
+        display: none;
+    }
+    #dark {
+        display: none;
+    }
+    .btn-mode {
+        padding: 5%;
+        font-size: 0;
+        width: fit-content;
+    }
+    #light {
+        width: 35px;
+        height: 35px;
+    }
     .maintenance {
         background-image: linear-gradient(to top, #e92428,
             #b02022);
@@ -913,6 +954,10 @@
 }
 
 @media only screen and (max-width: 392px) {
+    #light {
+            width: 28px;
+            height: 28px;
+        }
     .btn-red {
         width: 42%;
     }
