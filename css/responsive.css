@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1400px) {
     .btn-4 {
-        width: 240px;
+        width: 269px;
         margin-top: 2%;
     }
 }
@@ -109,6 +109,9 @@
     .lineShape {
         background-size: 60%;
     }
+    .lineShape-dark {
+        background-size: 60%;
+    }
 
     .red-content h3 {
         font-size: 20px;
@@ -174,6 +177,9 @@
     .maintenance {
         background-color: #fff;
     }
+    .maintenance-dark {
+        background-color: #000000;
+    }
         .maintain {
             padding-top: 7%;
             padding-bottom: 13%;
@@ -211,6 +217,20 @@
                 #dark {
                     width: 25px;
                     height: 25px;
+                }
+                .btn-mode-dark {
+                    font-size: 8px;
+                    padding: 3%;
+                }
+        
+                #light-dark {
+                    width: 30px;
+                    height: 30px;
+                }
+        
+                #dark-dark {
+                    width: 35px;
+                    height: 35px;
                 }
     .call-us {
         font-size: 10px;
@@ -552,7 +572,18 @@
     #dark {
         display: none;
     }
+    #nameMode-dark {
+        display: none;
+    }
+    #light-dark {
+        display: none;
+    }
     .btn-mode {
+        padding: 5%;
+        font-size: 0;
+        width: fit-content;
+    }
+    .btn-mode-dark {
         padding: 5%;
         font-size: 0;
         width: fit-content;
@@ -567,7 +598,20 @@
             padding-top: 0;
             margin-top: 0;
     }
+    .maintenance-dark {
+        background-image: linear-gradient(to top, #e92428,
+            #b02022);
+            padding-top: 0;
+            margin-top: 0;
+    }
     .contact {
+        background-image: linear-gradient(to top, #e92428,
+            #b02022);
+            padding-top: 0;
+            margin-top: 0;
+            padding-bottom: 0;
+    }
+    .contact-dark {
         background-image: linear-gradient(to top, #e92428,
             #b02022);
             padding-top: 0;
@@ -578,7 +622,7 @@
         font-size: 35px;
     }
     .group-call-1 {
-        width: 25% !important;
+        width: 30% !important;
         margin-top: 5% !important;
         margin-bottom: 5% !important;
     }
@@ -734,7 +778,7 @@
 
     .btn-4 {
         margin-top: 1%;
-        width: 50%;
+        width: 50% !important;
     }
 
     .index {
@@ -776,6 +820,11 @@
 
     .lineShape {
         background: url(../images/line-shape2.png) no-repeat;
+        background-position-x: 10%;
+        background-position-y: center;
+    }
+    .lineShape-dark {
+        background: url(../images/line-shape2-dark.png) no-repeat;
         background-position-x: 10%;
         background-position-y: center;
     }
@@ -828,6 +877,10 @@
         width: 365px;
         height: 365px;
     }
+    .location-map-dark {
+        width: 365px;
+        height: 365px;
+    }
 
     .btn-4 {
         margin-top: 25%;
@@ -842,6 +895,9 @@
     }
 
     .appro2 {
+        background-position-x: 12%;
+    }
+    .appro2-dark {
         background-position-x: 12%;
     }
     .mobile-btn-phone {
@@ -890,7 +946,7 @@
     }
 
     .btn-4 {
-        width: 70%;
+        width: 70% !important;
     }
 
     .btn-red2:hover {
@@ -925,6 +981,9 @@
     }
 
     .lineShape {
+        background-position-x: 15%;
+    }
+    .lineShape-dark {
         background-position-x: 15%;
     }
 
@@ -994,6 +1053,10 @@
         width: 295px;
         height: 295px;
     }
+    .location-map-dark {
+        width: 295px;
+        height: 295px;
+    }
 
     .card-about {
         height: 430px;
@@ -1018,6 +1081,9 @@
     }
 
     .appro2 {
+        background-position-x: 16%;
+    }
+    .appro2-dark {
         background-position-x: 16%;
     }
     .card-about {

@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stat</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body class="dark-body">
+    <!-- loader -->
+    <!-- <div id="loader"><img class="logo-load" src="images/logo.png" alt="stat"></div> -->
+
+    <!-- scrol-top -->
+    <div id="scroll"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+        </svg></div>
+
+
+    <!-- header and hero image section -->
+    <header class="pt-3">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div class="logo">
+                    <img src="images/logo-dark.png" alt="stat">
+                </div>
+                <div class="contact-menu">
+                    <div class="input-group btn-1 d-flex align-items-center p-0 bg-dark group-call rounded-pill shadow">
+                        <a href="(403) 226-6066"
+                            class="btn ms-1 btn-dark-phone rounded-circle d-flex align-items-center call-button"
+                            type="button" id="button-addon1"><img src="images/dark-phone.png" alt="phone"></a>
+                        <div class="bg-dark px-3 rounded-pill">
+                            <p class="call-us pt-2 pb-0 m-0 light-text"><b>CALL US 24/7</b> not only in <b>Emergency</b>
+                            </p>
+                            <p class="phone-number m-0 pb-0 pt-1 light-text"><b>(403) 226-6066</b>
+                            <div class="line"></div>
+                            </p>
+                        </div>
+                    </div>
+                    <a href="(403) 226-6066"
+                        class="btn btn-2 btn-dark-mobile rounded-circle d-flex align-items-center call-button2"
+                        type="button" id="button-addon1"><img src="images/phoneIcon.png" alt="phone"></a>
+                    <button class="btn menu-btn bg-transparent border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img class="menu"
+                            src="images/menu.png" alt="menu"></button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="images/logo-dark.png"
+                                    alt="stat" class="w-25"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="#" class="nav-link fs-4">Home</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link fs-4">Service</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link fs-4">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="change-mode-dark">
+                    <a href="index.html" class="btn btn-mode-dark rounded-pill" id="mode-dark"><svg id="light-dark"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-sun-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                        </svg><span id="nameMode-dark">LIGHT<br>MODE</span><svg id="dark-dark"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                            <path
+                                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+        <section class="hero">
+            <div class="container">
+                <div class="row g-1 align-items-center">
+                    <div class="col-12 col-lg-4">
+                        <div class="hero-content">
+                            <h1 class="fw-bold light-text">Services & <br />
+                                Maintenance</h1>
+                            <p class="fw-semibold">Lorem ipsum dolor sit amet, consectetur
+                                iscing elit. Donec non mi tincidunt,
+                                consectetur nibh ac nun.</p>
+                            <a href="#" class="btn btn-red rounded-pill">Contact Us <div class="arrow-right"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></div></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <img class="w-100 res" src="images/hero1.png" alt="stat">
+            <img class="w-100 shape1 pt-xxl-3 pt-2" src="images/shape-dark.png" alt="stat">
+        </section>
+    </header>
+
+
+    <!-- what we do best section -->
+    <section class="best dark-bg pb-2">
+        <div class="container">
+            <h1 class="text-center fw-bold light-text">What We Do Best</h1>
+            <div class="row g-3 justify-content-center lineShape-dark mt-5">
+                <div class="col-12 col-md-4">
+                    <div class="card-box d-flex d-md-block">
+                        <div
+                            class="mx-auto me-4 me-md-auto cart-img dark-icon d-flex justify-content-center align-items-center rounded-circle shadow px-4 py-5">
+                            <img src="images/cart-1-dark.png" alt="installation">
+                        </div>
+                        <div class="card-sec pt-3">
+                            <h3 class="text-start text-md-center fw-semibold light-text">Installation</h3>
+                            <p class="text-start text-md-center light-text fw-semibold">Lorem ipsum dolor sit amet, cons
+                                itetur adipiscing elit. Fusce egestas purus ut tincidunt accumsan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-box d-flex d-md-block">
+                        <div
+                            class="mx-auto me-4 me-md-auto dark-icon cart-img d-flex justify-content-center align-items-center rounded-circle shadow p-5">
+                            <img src="images/cart-2-dark.png" alt="installation">
+                        </div>
+                        <div class="card-sec pt-3">
+                            <h3 class="text-start text-md-center fw-semibold light-text">Repair</h3>
+                            <p class="text-start text-md-center light-text fw-semibold">Lorem ipsum dolor sit amet, cons
+                                itetur adipiscing elit. Fusce egestas purus ut tincidunt accumsan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-box d-flex d-md-block">
+                        <div
+                            class="mx-auto me-4 me-md-auto cart-img dark-icon d-flex justify-content-center align-items-center rounded-circle shadow p-5">
+                            <img src="images/cart-3-dark.png" alt="installation">
+                        </div>
+                        <div class="card-sec pt-3">
+                            <h3 class="text-start text-md-center fw-semibold light-text">Services</h3>
+                            <p class="text-start text-md-center light-text fw-semibold">Lorem ipsum dolor sit amet, cons
+                                itetur adipiscing elit. Fusce egestas purus ut tincidunt accumsan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- maintenance section -->
+    <section class="maintenance-dark">
+        <img class="w-100 rot img-maintin" src="images/shape7-dark.png" alt="stat">
+        <div class="row p-0 item flex-wrap-reverse">
+            <div class="col-12 col-lg-6 p-0 m-0">
+                <div class="img-maintin">
+                    <img class="w-100" src="images/meter-dark.png" alt="meter">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-0 m-0">
+                <div class="maintain px-5">
+
+                    <h2 class="fw-bold text-white man">Maintenance</h2>
+                    <p class="redish pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        auctor urna neque, id ullamcorper enim semper quis. Mauri
+                        nec augue in dui pharetra dapibus.
+                        Nunc aliquam eget enim ac pulvinar.</p>
+                    <ul class="pt-2 ps-4 list-mantain">
+                        <li class="text-white ps-2 pt-4 mt-0">We're experienced and qualified to service all brands
+                            of HVAC equipment</li>
+                        <li class="text-white ps-2 pt-4 mt-0">Ongoing training to better understand HVAC technology
+                            innovations</li>
+                        <li class="text-white ps-2 pt-4 mt-0">Fast, reliable and quality service</li>
+                        <li class="text-white ps-2 pt-4 mt-0">24/7 emergency service for contract customers
+                        </li>
+                        <li class="text-white ps-2 pt-4 mt-0">Technicians are trained to identify small issues and make
+                            repairs before becoming a major concern</li>
+                        <li class="text-white ps-2 pt-4 mt-0">Maintenance agreements allow us to understand your
+                            needs and equipment history</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- service location -->
+    <section class="location dark-bg pb-2">
+        <div class="container">
+            <div class="row g-2 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="location-link mx-auto text-center">
+                        <h1 class="fw-bold text-center text-lg-start ms-lg-4">Service Locations</h1>
+                        <div class="row g-2 justify-content-center pt-3">
+                            <div class="col-12 col-sm-6"><a href="#"
+                                    class="btn dark-icon w-75 location-btn fw-bold shadow-dark py-2 my-2 my-sm-0 border-5 px-3"><img
+                                        class="me-2" src="images/location-dark.png" alt="Cochrane">Cochrane</a></div>
+                            <div class="col-12 col-sm-6">
+                                <a href="#"
+                                    class="btn dark-icon w-75 location-btn fw-bold shadow-dark py-2 my-2 my-sm-0 border-5 px-3"><img
+                                        class="me-2" src="images/location-dark.png" alt="Okotoks">Okotoks</a>
+                            </div>
+                        </div>
+                        <div class="row g-2 justify-content-center pt-3">
+                            <div class="col-12 col-sm-6"><a href="#"
+                                    class="btn dark-icon w-75 location-btn fw-bold shadow-dark py-2 my-2 my-sm-0 border-5 px-3"><img
+                                        class="me-2" src="images/location-dark.png" alt="Chestermere">Chestermere</a>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <a href="#"
+                                    class="btn dark-icon w-75 location-btn fw-bold shadow-dark py-2 my-2 my-sm-0 border-5 px-3"><img
+                                        class="me-2" src="images/location-dark.png" alt="Bragg Creek">Bragg Creek</a>
+                            </div>
+                        </div>
+                        <div class="row g-2 justify-content-center pt-3">
+                            <div class="col-12 col-sm-6"><a href="#"
+                                    class="btn dark-icon w-75 location-btn fw-bold shadow-dark py-2 my-2 my-sm-0 border-5 px-3"><img
+                                        class="me-2" src="images/location-dark.png" alt="Airdrie ">Airdrie</a></div>
+                            <div class="col-12 col-sm-6">
+                                <a href="#"
+                                    class="btn dark-icon w-75 location-btn fw-bold shadow-dark py-2 my-2 my-sm-0 border-5 px-3"><img
+                                        class="me-2" src="images/location-dark.png" alt="Strathmore ">Strathmore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-phone">
+                        <a href="(403) 226-6066"
+                            class="btn locat-btn mt-4 text-center mx-auto text-lg-start ms-lg-4 rounded-pill d-flex">
+                            <img class="call" src="images/location-phone.png" alt="(403) 226-6066">
+                            <div class="location-btn-content text-start ps-3">
+                                <p class="m-0 text-white">Phone:</p>
+                                <h5 class="text-white">(403) 226-6066</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="mapL mx-auto text-center">
+                        <iframe class="rounded-circle shadow location-map-dark"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.9837047188635!2d72.7840301759169!3d40.60818317140952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdaa122221ba23%3A0x54b5fd2f46f136e1!2sOsh%20International%20Airport!5e0!3m2!1sen!2skg!4v1686905653259!5m2!1sen!2skg"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about dark-bg pt-5 pb-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-10">
+                    <h2 class="fw-bold light-text text-center text-lg-start">What our customers say about us</h2>
+                </div>
+                <div class="col-12 col-lg-2 d-none d-lg-block">
+                    <div class="row justify-content-center">
+                        <div class="text-end col-6"><button id="prev"
+                                class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                </svg></button>
+                        </div>
+                        <div class="text-start col-6"><button id="next"
+                                class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-mine">
+                <div class="contentsli" id="content">
+                    <div class="contentst py-3 px-2">
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about dark-bg shadow-dark rounded-5 py-2 px-3">
+                                <div class="row align-items-center">
+                                    <div class="col-10">
+                                        <div class="review py-3">
+                                            <div class="d-flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h4>Paul A.</h4>
+                                        <p>(Senior Critical Infrastructure Operator, Shaw)</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid" src="images/comma-dark.png" alt="stat">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="content p-2">
+                                    <p>“Found STAT Climate Control Solutions when I was
+                                        looking for a <b>partner company</b> that could further my goal of providing
+                                        Shaw
+                                        with
+                                        <b>energy efficient</b> and
+                                        <b>reliable cooling</b> for Shaw's electronic equipment. <b>'HVAC YOU CAN
+                                            TRUST'</b>
+                                        became the way Shaw and STAT Climate worked
+                                        together.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about dark-bg shadow-dark rounded-5 py-2 px-3">
+                                <div class="row align-items-center">
+                                    <div class="col-10">
+                                        <div class="review py-3">
+                                            <div class="d-flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h4>David J.</h4>
+                                        <p>(General Manager, Epic Investment Services)</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid" src="images/comma-dark.png" alt="stat">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="content p-2">
+                                    <p>"I really appreciate <b>the extra mile STAT Climate Control goes to provide
+                                            timely
+                                            service</b> and detailed reports on each
+                                        piece of equipment and their state of condition. This has helped tremendously in
+                                        planning for both
+                                        maintenance and capital replacement. Their <b>technicians are passionate and
+                                            take
+                                            pride
+                                            in “their” equipment."</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about dark-bg shadow-dark rounded-5 py-2 px-3">
+                                <div class="row align-items-center">
+                                    <div class="col-10">
+                                        <div class="review py-3">
+                                            <div class="d-flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h4>Paul A.</h4>
+                                        <p>(Senior Critical Infrastructure Operator, Shaw)</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid" src="images/comma-dark.png" alt="stat">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="content p-2">
+                                    <p>“Found STAT Climate Control Solutions when I was
+                                        looking for a <b>partner company</b> that could further my goal of providing
+                                        Shaw
+                                        with
+                                        <b>energy efficient</b> and
+                                        <b>reliable cooling</b> for Shaw's electronic equipment. <b>'HVAC YOU CAN
+                                            TRUST'</b>
+                                        became the way Shaw and STAT Climate worked
+                                        together.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about dark-bg shadow-dark rounded-5 py-2 px-3">
+                                <div class="row align-items-center">
+                                    <div class="col-10">
+                                        <div class="review py-3">
+                                            <div class="d-flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h4>David J.</h4>
+                                        <p>(General Manager, Epic Investment Services)</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid" src="images/comma-dark.png" alt="stat">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="content p-2">
+                                    <p>"I really appreciate <b>the extra mile STAT Climate Control goes to provide
+                                            timely
+                                            service</b> and detailed reports on each
+                                        piece of equipment and their state of condition. This has helped tremendously in
+                                        planning for both
+                                        maintenance and capital replacement. Their <b>technicians are passionate and
+                                            take
+                                            pride
+                                            in “their” equipment."</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about dark-bg shadow-dark rounded-5 py-2 px-3">
+                                <div class="row align-items-center">
+                                    <div class="col-10">
+                                        <div class="review py-3">
+                                            <div class="d-flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h4>Paul A.</h4>
+                                        <p>(Senior Critical Infrastructure Operator, Shaw)</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid" src="images/comma-dark.png" alt="stat">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="content p-2">
+                                    <p>“Found STAT Climate Control Solutions when I was
+                                        looking for a <b>partner company</b> that could further my goal of providing
+                                        Shaw
+                                        with
+                                        <b>energy efficient</b> and
+                                        <b>reliable cooling</b> for Shaw's electronic equipment. <b>'HVAC YOU CAN
+                                            TRUST'</b>
+                                        became the way Shaw and STAT Climate worked
+                                        together.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about dark-bg shadow-dark rounded-5 py-2 px-3">
+                                <div class="row align-items-center">
+                                    <div class="col-10">
+                                        <div class="review py-3">
+                                            <div class="d-flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h4>David J.</h4>
+                                        <p>(General Manager, Epic Investment Services)</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid" src="images/comma-dark.png" alt="stat">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="content p-2">
+                                    <p>"I really appreciate <b>the extra mile STAT Climate Control goes to provide
+                                            timely
+                                            service</b> and detailed reports on each
+                                        piece of equipment and their state of condition. This has helped tremendously in
+                                        planning for both
+                                        maintenance and capital replacement. Their <b>technicians are passionate and
+                                            take
+                                            pride
+                                            in “their” equipment."</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-block mx-auto text-center d-lg-none">
+                <div class="row justify-content-center">
+                    <div class="text-end col-6"><button id="prev1"
+                            class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg></button>
+                    </div>
+                    <div class="text-start col-6"><button id="next1"
+                            class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- brand -->
+    <section class="brand dark-bg py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <div class="brand text-center mx-auto">
+                        <img class="img-fluid" src="images/brand-1-dark.png" alt="cor">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="brand text-center mx-auto">
+                        <img class="img-fluid" src="images/brand-2.png" alt="comply works">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="brand text-center mx-auto">
+                        <img class="img-fluid" src="images/brand-3.png" alt="avetta">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="brand text-center mx-auto">
+                        <img class="img-fluid" src="images/brand-4.png" alt="BBB">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guaranted section -->
+    <section class="guaranty pt-5 pb-3 dark-bg">
+        <div class="container">
+            <div class="box-red p-5 rounded-pill">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-3">
+                        <div class="guarent text-center mx-auto pb-lg-0 pb-5">
+                            <img class="img-fluid" src="images/100logo.png" alt="stat">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="red-content text-center mx-auto ps-5">
+                            <h3 class="text-justify text-center text-lg-start pb-3">Enjoy Peace of Mind with Our 100%
+                                Satisfaction Guarantee!</h3>
+                            <p class="text-justify text-center text-lg-start">
+                                At STAT Climate Control Solutions Calgary, customer satisfaction is our top priority.
+                                That's why we offer a 100%
+                                satisfaction guarantee for the first year after we complete any work on your HVAC
+                                system. If for any reason you
+                                are not completely satisfied with the equipment we provide, we will replace or repair it
+                                until you are happy.
+                                <br>
+                                <br>
+                                Don't settle for anything less than the best. Choose STAT Climate Control Solutions
+                                Calgary for all your heating
+                                and cooling needs and enjoy peace of mind with our satisfaction guarantee.
+                            </p>
+                            <div class="row red-brand g-2 align-items-center pt-3">
+                                <div class="col-6 col-lg-3">
+                                    <div class="brand-service pt-3">
+                                        <img class="img-fluid" src="images/red-log.png" alt="A+">
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <div class="brand-service pt-3">
+                                        <img class="img-fluid" src="images/red-logo-2.png" alt="Google">
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <div class="brand-service pt-3">
+                                        <img class="img-fluid" src="images/red-logo-3.png" alt="Best In">
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <div class="brand-service pt-3">
+                                        <img class="img-fluid" src="images/red-logo-4.png" alt="Yelp">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why choose -->
+    <section class="choose pt-5 pb-3 dark-bg">
+        <div class="container">
+            <h1 class="text-center fw-bold light-text pt-3 pb-5 choose-head"><span>Why Choose</span> STAT Climate
+                Control Solutions?</h1>
+            <div class="row g-4 pt-3 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="choose-content">
+                        <div class="row align-items-center py-3">
+                            <div class="col-2">
+                                <div
+                                    class="choose-box dark-bg shadow-dark rounded-circle d-flex align-items-center justify-content-center border-5">
+                                    <img src="images/test-dark.png" alt="testing" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="py-2 px-1 fw-bold">Testing and report filing to City of Calgary Water
+                                    Services</h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center py-3">
+                            <div class="col-2">
+                                <div
+                                    class="choose-box dark-bg shadow-dark rounded-circle d-flex align-items-center justify-content-center border-5">
+                                    <img src="images/batch-dark.png" alt="Connection" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="py-2 px-1 fw-bold">Cross Connection Control installation,repair, and
+                                    servicing</h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center py-3">
+                            <div class="col-2">
+                                <div
+                                    class="choose-box dark-bg shadow-dark rounded-circle d-flex align-items-center justify-content-center border-5">
+                                    <img src="images/madle-dark.png" alt="Competitive" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="py-2 px-1 fw-bold">Competitive prices</h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center py-3">
+                            <div class="col-2">
+                                <div
+                                    class="choose-box dark-bg shadow-dark rounded-circle d-flex align-items-center justify-content-center border-5">
+                                    <img src="images/time-dark.png" alt="Fast" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="py-2 px-1 fw-bold">Fast completion after scheduling for inspection</h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center py-3">
+                            <div class="col-2">
+                                <div
+                                    class="choose-box dark-bg shadow-dark rounded-circle d-flex align-items-center justify-content-center border-5">
+                                    <img src="images/anual-dark.png" alt="anual" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="py-2 px-1 fw-bold">Annual reminder service</h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center py-3">
+                            <div class="col-2">
+                                <div
+                                    class="choose-box dark-bg shadow-dark rounded-circle d-flex align-items-center justify-content-center border-5">
+                                    <img src="images/cirtificate-dark.png" alt="certificate" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="py-2 px-1 fw-bold">Certified tester for the City of Calgary Water Services
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="rounded-4 text-center mx-auto">
+                        <img class="w-100 chose-img" src="images/why-choose.png" alt="why choose us">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- approach -->
+    <section class="app-img-shap dark-bg">
+        <img src="images/shape-3-dark.png" alt="stat" class="img-fluid mt-5">
+    </section>
+    <section class="approach pt-3 dark-icon">
+        
+        <div class="container">
+            <h1 class="text-center fw-bold pb-2">Our Approach</h1>
+            <p class="text-secondary fw-semibold text-center pb-4">STAT Climate Control Solutions is a reputable company
+                that
+                prioritizes reliability, communication,
+                professionalism, and quality workmanship to protect your investment and our reputation. We guarantee</p>
+
+            <div class="appro d-none d-lg-flex justify-content-center align-items-center w-100">
+                <div class="rounded-circle circle-area-dark">
+                    <div class="circle-1">
+                        <div class="d-flex">
+                            <div class="circle-content text-end pe-4">
+                                <h5 class="fw-bold">Professionalism</h5>
+                                <p class="fw-semibold">we pride ourselves on our professionalism
+                                    through our appearance, behavior, and work ethic.</p>
+                            </div>
+                            <div class="circle-box rounded-circle">
+                                <img src="images/profession-dark.png" alt="stat">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-2">
+                        <div class="d-flex">
+                            <div class="circle-content text-end pe-4">
+                                <h5 class="fw-bold">No hidden costs</h5>
+                                <p class="fw-semibold">We don't overcharge or hit you with
+                                    unexpected charges for our services,
+                                    straining your budget.</p>
+                            </div>
+                            <div class="circle-box rounded-circle">
+                                <img src="images/hidden-dark.png" alt="stat">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-3">
+                        <div class="d-flex flex-column">
+                            <div class="circle-box rounded-circle mx-auto text-center">
+                                <img src="images/chat-dark.png" alt="stat">
+                            </div>
+                            <div class="circle-content text-center">
+                                <h5 class="fw-bold">Communication</h5>
+                                <p class="fw-semibold">we communicate effectively about project progress,
+                                    potential issues, or schedule changes. Clear communication
+                                    is essential for smooth project management and coordination.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="circle-4">
+                        <div class="d-flex">
+                            <div class="circle-box rounded-circle">
+                                <img src="images/quality-dark.png" alt="stat">
+                            </div>
+                            <div class="circle-content ps-4">
+                                <h5 class="fw-bold">Quality workmanship</h5>
+                                <p class="fw-semibold">we don't cut corners! We perform all
+                                    work to industry standards.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="circle-5">
+                        <div class="d-flex">
+                            <div class="circle-box rounded-circle">
+                                <img src="images/relaitive-dark.png" alt="stat">
+                            </div>
+                            <div class="circle-content ps-4">
+                                <h5 class="fw-bold">Reliability</h5>
+                                <p class="fw-semibold">we show up on time and complete
+                                    tasks within the agreed upon schedule
+                                    and reduce disruptions.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="d-flex h-100 justify-content-center align-items-center">
+                        <img class="mid" src="images/approach.png" alt="stat">
+                    </div>
+                </div>
+            </div>
+            <div class="appro2-dark d-block d-lg-none">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img class="w-75" src="images/approach.png" alt="stat">
+                </div>
+                <div class="d-flex align-items-center pt-4 ms-4">
+                    <div class="circle-box rounded-circle">
+                        <img src="images/profession.png" alt="stat">
+                    </div>
+                    <div class="circle-content text-start ps-4">
+                        <h5 class="fw-bold">Professionalism</h5>
+                        <p class="fw-semibold">we pride ourselves on our professionalism
+                            through our appearance, behavior, and work ethic.</p>
+                    </div>
+
+                </div>
+                <div class="d-flex align-items-center pt-4 ms-4">
+                    <div class="circle-box rounded-circle">
+                        <img src="images/hidden.png" alt="stat">
+                    </div>
+                    <div class="circle-content text-start ps-4">
+                        <h5 class="fw-bold">No hidden costs</h5>
+                        <p class="fw-semibold">We don't overcharge or hit you with
+                            unexpected charges for our services,
+                            straining your budget.</p>
+                    </div>
+
+                </div>
+                <div class="d-flex align-items-center pt-4 ms-4">
+                    <div class="circle-box rounded-circle">
+                        <img src="images/chat.png" alt="stat">
+                    </div>
+                    <div class="circle-content text-start ps-4">
+                        <h5 class="fw-bold">Communication</h5>
+                        <p class="fw-semibold">we communicate effectively about project progress,
+                            potential issues, or schedule changes. Clear communication
+                            is essential for smooth project management and coordination.</p>
+                    </div>
+
+                </div>
+                <div class="d-flex align-items-center pt-4 ms-4">
+                    <div class="circle-box rounded-circle">
+                        <img src="images/quality.png" alt="stat">
+                    </div>
+                    <div class="circle-content ps-4">
+                        <h5 class="fw-bold">Quality workmanship</h5>
+                        <p class="fw-semibold">we don't cut corners! We perform all
+                            work to industry standards.</p>
+                    </div>
+
+                </div>
+                <div class="d-flex align-items-center pt-4 ms-4">
+                    <div class="circle-box rounded-circle">
+                        <img src="images/relaitive.png" alt="stat">
+                    </div>
+                    <div class="circle-content ps-4">
+                        <h5 class="fw-bold">Reliability</h5>
+                        <p class="fw-semibold">we show up on time and complete
+                            tasks within the agreed upon schedule
+                            and reduce disruptions.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- question -->
+    <section class="question-dark pb-3">
+        <img src="images/shape-3-dark.png" alt="stat" class="img-fluid mt-5">
+        <div class="container">
+            <h1 class="fw-bold text-center">Frequently Asked Questions</h1>
+            <div class="list-question pt-4">
+                <h5 class="fw-semibold py-3" id="he1-dark"><span class="pe-4 text-secondary">01</span> Do you offer free
+                    quotes? <span class="text-end float-end btn bg-body-secondary rounded-circle" id="p1">+</span><span
+                        class="text-end float-end btn rounded-circle" id="m1">-</span></h5>
+                <p class="text-secondary px-5" id="ans1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he2-dark"><span class="pe-4 text-secondary">02</span> Do you work on
+                    commercial
+                    equipment and refrigeration? <span class="text-end float-end btn bg-body-secondary rounded-circle"
+                        id="p2">+</span><span class="text-end float-end btn rounded-circle" id="m2">-</span></h5>
+                <p class="text-secondary px-5" id="ans2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he3-dark"><span class="pe-4 text-secondary">03</span> What are your rates?
+                    <span class="text-end float-end btn bg-body-secondary rounded-circle" id="p3">+</span><span
+                        class="text-end float-end btn rounded-circle" id="m3">-</span>
+                </h5>
+                <p class="text-secondary px-5" id="ans3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he4-dark"><span class="pe-4 text-secondary">04</span> Are there mileage or
+                    truck
+                    charges added? <span class="text-end float-end btn bg-body-secondary rounded-circle"
+                        id="p4">+</span><span class="text-end float-end btn rounded-circle" id="m4">-</span></h5>
+                <p class="text-secondary px-5" id="ans4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he5-dark"><span class="pe-4 text-secondary">05</span> How quickly can you
+                    come? <span class="text-end float-end btn bg-body-secondary rounded-circle" id="p5">+</span><span
+                        class="text-end float-end btn rounded-circle" id="m5">-</span></h5>
+                <p class="text-secondary px-5" id="ans5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he6-dark"><span class="pe-4 text-secondary">06</span> Can you perform
+                    warranty
+                    repairs for my furnace? <span class="text-end float-end btn bg-body-secondary rounded-circle"
+                        id="p6">+</span><span class="text-end float-end btn rounded-circle" id="m6">-</span></h5>
+                <p class="text-secondary px-5" id="ans6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he7-dark"><span class="pe-4 text-secondary">07</span> Do you provide
+                    backflow
+                    testing? <span class="text-end float-end btn bg-body-secondary rounded-circle" id="p7">+</span><span
+                        class="text-end float-end btn rounded-circle" id="m7">-</span></h5>
+                <p class="text-secondary px-5" id="ans7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+
+                <h5 class="fw-semibold py-3" id="he8-dark"><span class="pe-4 text-secondary">08</span> Do you provide
+                    backflow
+                    testing? <span class="text-end float-end btn bg-body-secondary rounded-circle" id="p8">+</span><span
+                        class="text-end float-end btn rounded-circle" id="m8">-</span></h5>
+                <p class="text-secondary px-5" id="ans8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                    inventore
+                    reiciendis
+                    harum accusamus in sapiente fugiat, rerum ad delectus illo.</p>
+                <hr>
+            </div>
+        </div>
+        <img class="shape4" src="images/shape-wavebottom.png" alt="stat">
+    </section>
+
+    <!-- service -->
+    <section class="service pt-5 pb-3 dark-bg">
+
+        <div class="container">
+            <h1 class="text-center text-black fw-bold pb-5">Other commercial Services We Provide
+            </h1>
+            <div class="row g-2 align-items-center pt-4 flex-wrap-reverse">
+                <div class="col-12 col-lg-6">
+                    <div class="service-img text-center text-lg-start mx-auto mx-lg-0">
+                        <img class="w-75" src="images/building.png" alt="building">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="service-content text-center text-lg-start pb-3">
+                        <h2 class="pb-5 fw-bold">Commercial HVAC
+                            Retrofits
+                        </h2>
+                        <p class="pb-5 fw-semibold">Because HVAC equipment has a limited lifespan
+                            commercial building managers must deal with the
+                            difficult question of when to replace the HVAC system.
+                            <br>
+                            <br>
+                            The problem becomes compounded when you consider there is considerable cost with a new HVAC
+                            installation, which must be
+                            budgeted, not to mention the downtime
+                            a building may experience reducing productivity
+                            and revenue.
+                        </p>
+                        <a href="#" class="btn btn-red2 ps-0 rounded-pill">Learn More <div class="arrow-right"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 align-items-center pt-4">
+
+                <div class="col-12 col-lg-6">
+                    <div class="service-content text-center text-lg-start pb-3">
+                        <h2 class="pb-5 fw-bold">Data Centre HVAC
+                            Services
+                        </h2>
+                        <p class="pb-5 fw-semibold">STAT Climate Control Solutions is a leader in HVAC technology for
+                            design solutions and energy efficiency vital to
+                            computer servers in data centres to maintain high performance conditions for servers and
+                            equipment.
+                            <br>
+                            <br>
+                            We can help you lower cost with sustained energy efficiency, improve air quality and
+                            humidity levels upgrading upon
+                            traditional or antiquated systems.
+                        </p>
+                        <a href="#" class="btn btn-red2 ps-0 rounded-pill">Learn More <div class="arrow-right"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></div></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="service-img text-center text-lg-end mx-auto mx-lg-0">
+                        <img class="w-75" src="images/factory.png" alt="factory">
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 align-items-center pt-4 flex-wrap-reverse">
+                <div class="col-12 col-lg-6">
+                    <div class="service-img text-center text-lg-start mx-auto mx-lg-0">
+                        <img class="w-75" src="images/gas.png" alt="gas">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="service-content text-center text-lg-start pb-3">
+                        <h2 class="pb-5 fw-bold">Cross Connection
+                            Control Testing
+                        </h2>
+                        <p class="pb-5 fw-semibold">STAT Climate Control Solutions are specialists for testing,
+                            repairing and installing cross connection control devices,
+                            also known as backflow valves.
+                            <br>
+                            <br>
+                            These devices are installed in commercial premises and newer residential sprinkler systems
+                            as a means to protect the
+                            municipal water supply from contamination (including; boiler chemicals, cleaners,
+                            pesticides, etc) by not allowing
+                            anything to enter the water supply in low flow conditions.
+                        </p>
+                        <a href="#" class="btn btn-red2 ps-0 rounded-pill">Learn More <div class="arrow-right"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 align-items-center pt-4">
+
+                <div class="col-12 col-lg-6">
+                    <div class="service-content text-center text-lg-start pb-3">
+                        <h2 class="pb-5 fw-bold">Refrigeration
+                        </h2>
+                        <p class="pb-5 fw-semibold">STAT Climate Control Solutions are refrigeration specialists
+                            in Calgary for refrigeration installations and repairs. We have
+                            experience with most commercial units including; walk-in coolers and freezers, refrigerated
+                            display units and ice
+                            machines.
+                            <br>
+                            <br>
+                            You can count us for fast reliable service should your equipment breakdown. Our technicians
+                            are licensed and trained to
+                            repair refrigeration equipment and are trucks are stocked with most parts needed for quick
+                            service.
+                        </p>
+                        <a href="#" class="btn btn-red2 ps-0 rounded-pill">Learn More <div class="arrow-right"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></div></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="service-img text-center text-lg-end mx-auto mx-lg-0">
+                        <img class="w-75" src="images/machine.png" alt="machine">
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 align-items-center pt-4 flex-wrap-reverse">
+                <div class="col-12 col-lg-6">
+                    <div class="service-img text-center text-lg-start mx-auto mx-lg-0">
+                        <img class="w-75" src="images/gas2.png" alt="gas">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="service-content text-center text-lg-start pb-3">
+                        <h2 class="pb-5 fw-bold">Property Management
+                            HVAC Maintenance</h2>
+                        <p class="pb-5 fw-semibold">We offer budget saving solutions for property management companies.
+                            We can keep your tenants satisfied and your
+                            buildings safe with regularly scheduled HVAC maintenance.
+                            <br>
+                            <br>
+                            All HVAC maintenance includes extensive quality control to ensure your budget isn’t
+                            exceeded.
+                        </p>
+                        <a href="#" class="btn btn-red2 ps-0 rounded-pill">Learn More <div class="arrow-right"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 24/7 support -->
+    <section class="support">
+        <img class="w-100 rot" src="images/shape7-dark.png" alt="stat">
+        <img src="images/shape8.png" alt="stat" class="shap8">
+        <div class="container">
+            <h1 class="text-white fw-bold text-center pt-5"><span class="custom">24 Hour Emergency</span> Commercial
+                HVAC
+                Repair</h1>
+            <p class="text-center text-white pt-5 padding">Don't Let a Broken Cooling, Refrigeration or Heating System
+                Ruin Your Day! Have you ever experienced the panic that sets
+                in when your refrigeration or heating system suddenly stops working? The last thing you want is a major
+                disruption in
+                your daily routine. That's why STAT Climate Control Solutions is here to help with emergency repair
+                services, available
+                24 hours, 7 days a week.</p>
+            <div
+                class="input-group w-50 mx-auto btn-3 dispay d-flex align-items-center p-0 bg-white group-call rounded-pill shadow">
+                <a href="(403) 226-6066" class="btn ms-1 btn-dark rounded-circle d-flex align-items-center call-button"
+                    type="button" id="button-addon1"><img src="images/phoneIcon.png" alt="phone"></a>
+                <div class="bg-white w-75 px-3 rounded-pill">
+                    <p class="call-us call-us2 pt-2 pb-0 m-0 fw-bold dark-text">Call STAT Climate Control Solutions at <span
+                            class="number">(403) 226-6066</span> now <br>
+                        and
+                        let us help you get back to a comfortable life.</p>
+                </div>
+            </div>
+            <div class="position">
+                <div class="mobile-btn-24">
+                    <img class="mobile-phone" src="images/mobile-icon.png" alt="stat">
+                    <a href="(403) 226-6066" class="mobile-btn-phone dark-text">Call STAT Climate Control Solutions at
+                        <span class="custom text-danger">(403) 226-6066</span> now and let us help you
+                        get back to a comfortable life.</a>
+                </div>
+            </div>
+        </div>
+        <img class="w-100" src="images/shape7-dark.png" alt="stat">
+        <div class="dark-bg py-4 img-maintin"></div>
+    </section>
+
+    <!-- air condition -->
+    <section class="hit pt-4 dark-bg">
+        <div class="container">
+            <div class="row g-1 align-items-center flex-wrap-reverse">
+                <div class="col-12 col-lg-6">
+                    <div class="elec text-center mx-auto text-lg-start mx-lg-0">
+                        <img class="w-75" src="images/electric.png" alt="electric">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="air-content">
+                        <h1 class="light-text text-center text-lg-start fw-bold">Heating and
+                            Air Conditioning -
+                            Residential Maintenance</h1>
+                        <p class="light-text text-center text-lg-start pt-3 pb-5">STAT Climate Control Solutions Calgary
+                            is
+                            the best
+                            choice for furnace replacement, heating, and air conditioning (HVAC) services. We offer
+                            competitive prices, outstanding
+                            customer service, and expert, experienced installation,
+                            and maintenance.
+                        </p>
+                        <div class="text-center text-lg-start mx-auto mx-lg-0 pb-4">
+                            <a href="#" class="btn btn-red2 ps-0 rounded-pill">Learn More <div class="arrow-right"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></div></a>
+                        </div>
+                    </div>
+                    <div class="row g-2 align-items-center pb-4">
+                        <div class="col-3">
+                            <div class="brand-2 mx-auto text-center">
+                                <img class="img-fluid" src="images/red-log.png" alt="a+">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="brand-2 mx-auto text-center">
+                                <img class="img-fluid" src="images/red-logo-2.png" alt="google">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="brand-2 mx-auto text-center">
+                                <img class="img-fluid" src="images/red-logo-3.png" alt="a+">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="brand-2 mx-auto text-center">
+                                <img class="img-fluid" src="images/red-logo-4.png" alt="yelp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 pt-5 mt-3">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-condition dark-card">
+                        <div class="card-log">
+                            <div class="dark-icon shadow-dark icon-dark icon d-flex justify-content-center align-items-center">
+                                <img src="images/gas-icon-dark.png" alt="gas">
+                            </div>
+                        </div>
+                        <h4>Furnace
+                            Installation</h4>
+                        <p class="pt-3">Lorem ipsum dolor sit amet
+                            consectetur adipiscing eliti
+                            sed dictum purus..</p>
+                        <a href="#" class="text-decoration-none text-danger fw-bold">Learn More <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-condition dark-card">
+                        <div class="card-log">
+                            <div class="dark-icon shadow-dark icon-dark icon d-flex justify-content-center align-items-center">
+                                <img src="images/rep-icon-dark.png" alt="rep">
+                            </div>
+                        </div>
+                        <h4>Furnace Repairs</h4>
+                        <p class="pt-3">fringilla libero non, volutunc
+                            Suspendisse sit amet entum
+                            ligula. Nam cursus sed est
+                            finibus fermentum.</p>
+                        <a href="#" class="text-decoration-none text-danger fw-bold">Learn More <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-condition dark-card-shadow">
+                        <div class="card-log">
+                            <div class="shadow-dark icon-dark icon bg-danger d-flex justify-content-center align-items-center">
+                                <img src="images/ac.png" alt="ac">
+                            </div>
+                        </div>
+                        <h4>Air Conditioning
+                            Installation</h4>
+                        <p>Morbi leo risus, viverra ut nulla
+                            sit amet, convallis vestibulum
+                            consectetur semper.</p>
+                        <a href="#" class="text-decoration-none text-danger fw-bold">Learn More <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-condition dark-card">
+                        <div class="card-log">
+                            <div class="dark-icon shadow-dark icon-dark icon d-flex justify-content-center align-items-center">
+                                <img src="images/washin-dark.png" alt="washin">
+                            </div>
+                        </div>
+                        <h4>Air Conditioning
+                            Repairs</h4>
+                        <p>aliquam tellus id metus tristiq
+                            vitae mollis massa fringill do
+                            Etiam nec arcu vel.</p>
+                        <a href="#" class="text-decoration-none text-danger fw-bold">Learn More <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="w-100" src="images/shape7-dark.png" alt="stat">
+    </section>
+
+    <!-- blog -->
+    <section class="blog dark-bg pb-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-10">
+                    <h2 class="fw-bold text-black text-center text-lg-start">Commercial Blog</h2>
+                </div>
+                <div class="col-12 col-lg-2 d-none d-lg-block">
+                    <div class="row justify-content-center pt-2">
+                        <div class="text-end col-6"><button id="prev2"
+                                class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                </svg></button>
+                        </div>
+                        <div class="text-start col-6"><button id="next2"
+                                class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-mine">
+                <div class="contentsli" id="content2">
+                    <div class="contentst py-3 px-2">
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about2 dark-bg shadow-dark rounded-5">
+                                <div class="card-banner rounded-top-5">
+                                    <img src="images/blog.jpg" alt="blog" class="object">
+                                </div>
+                                <div class="card-about-2">
+                                    <a href="#" class="text-secondary d-block py-4 ps-5 text-decoration-none">Commercial
+                                        HVAC</a>
+                                    <h3 class="light-text ps-5 pe-2 fw-bold">Smarter Choices with Smart
+                                        HVAC Systems</h3>
+                                    <a href="#" class="py-3 d-block text-decoration-none text-danger fw-bold ps-5">Learn
+                                        More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about2 dark-bg shadow-dark rounded-5">
+                                <div class="card-banner rounded-top-5">
+                                    <img src="images/blog-2.jpg" alt="blog" class="object">
+                                </div>
+                                <div class="card-about-2">
+                                    <a href="#" class="text-secondary d-block py-4 ps-5 text-decoration-none">Commercial
+                                        HVAC</a>
+                                    <h3 class="light-text ps-5 pe-2 fw-bold">Rooftop Air Conditioners</h3>
+                                    <a href="#" class="py-3 d-block text-decoration-none text-danger fw-bold ps-5">Learn
+                                        More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about2 dark-bg shadow-dark rounded-5">
+                                <div class="card-banner rounded-top-5">
+                                    <img src="images/blog.jpg" alt="blog" class="object">
+                                </div>
+                                <div class="card-about-2">
+                                    <a href="#" class="text-secondary d-block py-4 ps-5 text-decoration-none">Commercial
+                                        HVAC</a>
+                                    <h3 class="light-text ps-5 pe-2 fw-bold">Smarter Choices with Smart
+                                        HVAC Systems</h3>
+                                    <a href="#" class="py-3 d-block text-decoration-none text-danger fw-bold ps-5">Learn
+                                        More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about2 dark-bg shadow-dark rounded-5">
+                                <div class="card-banner rounded-top-5">
+                                    <img src="images/blog-2.jpg" alt="blog" class="object">
+                                </div>
+                                <div class="card-about-2">
+                                    <a href="#" class="text-secondary d-block py-4 ps-5 text-decoration-none">Commercial
+                                        HVAC</a>
+                                    <h3 class="light-text ps-5 pe-2 fw-bold">Rooftop Air Conditioners</h3>
+                                    <a href="#" class="py-3 d-block text-decoration-none text-danger fw-bold ps-5">Learn
+                                        More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about2 dark-bg shadow-dark rounded-5">
+                                <div class="card-banner rounded-top-5">
+                                    <img src="images/blog.jpg" alt="blog" class="object">
+                                </div>
+                                <div class="card-about-2">
+                                    <a href="#" class="text-secondary d-block py-4 ps-5 text-decoration-none">Commercial
+                                        HVAC</a>
+                                    <h3 class="light-text ps-5 pe-2 fw-bold">Smarter Choices with Smart
+                                        HVAC Systems</h3>
+                                    <a href="#" class="py-3 d-block text-decoration-none text-danger fw-bold ps-5">Learn
+                                        More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 shr">
+                            <div class="card-about2 dark-bg shadow-dark rounded-5">
+                                <div class="card-banner rounded-top-5">
+                                    <img src="images/blog-2.jpg" alt="blog" class="object">
+                                </div>
+                                <div class="card-about-2">
+                                    <a href="#" class="text-secondary d-block py-4 ps-5 text-decoration-none">Commercial
+                                        HVAC</a>
+                                    <h3 class="light-text ps-5 pe-2 fw-bold">Rooftop Air Conditioners</h3>
+                                    <a href="#" class="py-3 d-block text-decoration-none text-danger fw-bold ps-5">Learn
+                                        More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-block mx-auto text-center d-lg-none">
+                <div class="row justify-content-center">
+                    <div class="text-end col-6"><button id="prev3"
+                            class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg></button>
+                    </div>
+                    <div class="text-start col-6"><button id="next3"
+                            class="btn arrow-btn dark-bg shadow-dark rounded-circle border-5"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact-dark">
+        <img class="w-100 rot img-maintin" src="images/shape7-dark.png" alt="stat">
+        <h1 class="text-center fw-bold text-white">Call (403) 226-6066 for 24-Hour Emergency <br class="br">
+            Residential HVAC and ALL Mechanical Services</h1>
+        <div
+            class="input-group btn-4 d-flex align-items-center p-0 bg-dark group-call group-call-1 mx-auto text-center rounded-pill shadow">
+            <a href="(403) 226-6066"
+                class="btn btn-pad ms-0 text-white rounded-circle d-flex align-items-center call-button1 pb-3"
+                type="button" id="button-addon1"><img src="images/black-phone.png" alt="phone"></a>
+            <div class="bg-dark px-3 rounded-pill text-white">
+                <p class="call-us pb-0 m-0"><b>CALL US 24/7</b></p>
+                <p class="phone-number m-0 pb-0 pt-1"><b>(403) 226-6066</b>
+
+                </p>
+            </div>
+
+        </div>
+        <img class="w-100 img-maintin" src="images/contact-dark.png" alt="stat">
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row g-2 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <h3 class="light-text text-center fw-bold">Subscribe to our Monthly Newsletter</h3>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control rounded-pill py-2"
+                            placeholder="Enter Your Email Address" aria-label="email" aria-describedby="button-addon2">
+                        <button class="btn btn-danger rounded-circle btn-group-2" type="button" id="button-addon2"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 pt-5">
+                <div class="col-12 col-lg-4">
+                    <div class="logo-area">
+                        <a href="index.html"><img class="w-50" src="images/logo-dark.png" alt="stat"></a>
+                        <div class="pt-5 d-flex g-4">
+                            <a href="#" class="btn social rounded-circle dark-bg shadow-dark m-2"><img src="images/face-dark.png"
+                                    alt="facebook"></a>
+                            <a href="#" class="btn social rounded-circle dark-bg shadow-dark w m-2"><img src="images/in-dark.png"
+                                    alt="in"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h4><span class="custom">Na</span>vigation</h4>
+                    <div class="row g-2">
+                        <div class="col-12 col-md-6">
+                            <ul class="p-0 pt-3 footer-li">
+                                <li>Home</li>
+                                <li>About Us</li>
+                                <li>Careers</li>
+                                <li>Resources</li>
+                                <li>Residential</li>
+                                <li> Projects</li>
+                                <li> Sectors / Industries</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <ul class="p-0 pt-3 footer-li">
+                                <li>Innovation / Solutions</li>
+                                <li>Blog</li>
+                                <li>New Construction & Retrofits</li>
+                                <li>Services & Maintenance</li>
+                                <li>Commercial</li>
+                                <li>Industrial</li>
+                                <li>Residential</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h4><span class="custom">Su</span>pport</h4>
+                    <div class="row g-2 pt-3">
+                        <div class="col-2 text-center"><img src="images/add-dark.png" alt="add"></div>
+                        <div class="col-10">
+                            <p class="p-0 m-0 pb-2 text-body-secondary">Address:</p>
+                            <p class="p-0 m-0 pb-2 light-text fw-semibold">Bay 14 2221 41 Ave N.E.</p>
+                        </div>
+                    </div>
+                    <div class="row g-2 pt-3">
+                        <div class="col-2 text-center"><img src="images/mail-dark.png" alt="mail"></div>
+                        <div class="col-10">
+                            <p class="p-0 m-0 pb-2 text-body-secondary">Email:</p>
+                            <p class="p-0 m-0 pb-2 light-text"><span
+                                    class="custom text-danger">info@statclimate.ca</span></p>
+                        </div>
+                    </div>
+                    <div class="row g-2 pt-3">
+                        <div class="col-2 text-center"><img src="images/phone-dark.png" alt="phone"></div>
+                        <div class="col-10">
+                            <p class="p-0 m-0 pb-2 text-body-secondary">Phone:</p>
+                            <p class="p-0 m-0 pb-2 light-text fw-semibold">(403) 226-6066</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="pt-5 text-center fw-light">© 2023 <b>STAT Climate Control Solutions</b>. All rights reserved. |
+                Terms and Conditions | Privacy Policy</h5>
+        </div>
+    </footer>
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

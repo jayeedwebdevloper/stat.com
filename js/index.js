@@ -18,6 +18,26 @@ function clickToggle(plus, minus, ans, head) {
         this.style.display = 'none';
     });
 }
+function clickToggleDark(plus, minus, ans, head) {
+    plus.addEventListener('click', function () {
+        ans.style.display = 'block';
+        head.style.color = '#d22126';
+        minus.style.display = 'block';
+        minus.style.backgroundColor = '#d22126';
+        minus.style.color = '#fff';
+        minus.style.padding = '14px';
+        minus.style.fontSize = '20px';
+        minus.style.paddingTop = '2px';
+        minus.style.paddingBottom = '2px';
+        this.style.display = 'none';
+    });
+    minus.addEventListener('click', function () {
+        ans.style.display = 'none';
+        head.style.color = '#adb5bd';
+        plus.style.display = 'block';
+        this.style.display = 'none';
+    });
+}
 
 let plus1 = document.getElementById('p1');
 let minus1 = document.getElementById('m1');
@@ -75,6 +95,32 @@ clickToggle(plus5, minus5, ans5, head5);
 clickToggle(plus6, minus6, ans6, head6);
 clickToggle(plus7, minus7, ans7, head7);
 clickToggle(plus8, minus8, ans8, head8);
+
+
+let head1D = document.getElementById('he1-dark');
+
+let head2D = document.getElementById('he2-dark');
+
+let head3D = document.getElementById('he3-dark');
+
+let head4D = document.getElementById('he4-dark');
+
+let head5D = document.getElementById('he5-dark');
+
+let head6D = document.getElementById('he6-dark');
+
+let head7D = document.getElementById('he7-dark');
+
+let head8D = document.getElementById('he8-dark');
+
+clickToggleDark(plus1, minus1, ans1, head1D);
+clickToggleDark(plus2, minus2, ans2, head2D);
+clickToggleDark(plus3, minus3, ans3, head3D);
+clickToggleDark(plus4, minus4, ans4, head4D);
+clickToggleDark(plus5, minus5, ans5, head5D);
+clickToggleDark(plus6, minus6, ans6, head6D);
+clickToggleDark(plus7, minus7, ans7, head7D);
+clickToggleDark(plus8, minus8, ans8, head8D);
 
 
 // window.addEventListener('load', function () {
