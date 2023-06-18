@@ -1,4 +1,75 @@
+@media only screen and (min-width: 1400px) {
+    .btn-4 {
+        width: 240px;
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 2285px) {
+    .maintain {
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+}
+
+@media only screen and (max-width: 2068px) {
+    .maintain {
+        padding-top: 28%;
+        padding-bottom: 28%;
+    }
+}
+@media only screen and (max-width: 1968px) {
+    .contact {
+            padding-top: 11%;
+            padding-bottom: 11%;
+        }
+}
+
+@media only screen and (max-width: 1892px) {
+    .maintain {
+        padding-top: 25%;
+        padding-bottom: 25%;
+    }
+}
+
+@media only screen and (max-width: 1680px) {
+    .maintain {
+        padding-top: 23%;
+        padding-bottom: 23%;
+    }
+}
+
+@media only screen and (max-width: 1630px) {
+    .maintain {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+        .contact {
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+}
+
+@media only screen and (max-width: 1520px) {
+    .maintain {
+        padding-top: 17%;
+        padding-bottom: 17%;
+    }
+}
+
+@media only screen and (max-width: 1415px) {
+    .maintain {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
+    .maintain {
+        padding-top: 7%;
+        padding-bottom: 15%;
+    }
+
     .btn-red {
         width: 43%;
     }
@@ -9,6 +80,9 @@
 
     .btn-red2 {
         width: 33%;
+    }
+    .group-call-1 {
+        margin-top: 2% !important;
     }
 
     .btn-red:hover {
@@ -48,13 +122,16 @@
         width: 60% !important;
     }
 
+
 }
 
 @media only screen and (max-width: 1350px) {
     .bottom-red {
-        margin-top: -6%;
+        margin-top: -10%;
     }
-
+    .contact h1 {
+        font-size: 35px;
+    }
     .shape2 {
         left: -14%;
         bottom: 13%;
@@ -66,7 +143,49 @@
     }
 }
 
+@media only screen and (max-width: 1268px) {
+    .maintain {
+        padding-top: 1%;
+        padding-bottom: 15%;
+    }
+    .contact {
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .maintain {
+            padding-top: 1%;
+            padding-bottom: 13%;
+        }
+}
+
 @media only screen and (max-width: 1200px) {
+    .maintenance {
+        background-color: #fff;
+    }
+        .maintain {
+            padding-top: 7%;
+            padding-bottom: 13%;
+        }
+        .maintain h2 {
+            font-size: 28px;
+        }
+        .maintain p {
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+        .maintain ul {
+            padding-top: 0 !important;
+            font-size: 14px;
+        }
+        .contact h1 {
+            font-size: 30px;
+        }
+        .group-call-1 {
+            width: 20% !important;
+        }
     .call-us {
         font-size: 10px;
     }
@@ -214,7 +333,7 @@
 
 @media only screen and (max-width: 1192px) {
     .bottom-red {
-        margin-top: -7%;
+        margin-top: -10%;
     }
 
     .shape2 {
@@ -227,9 +346,7 @@
         top: 8%;
     }
 
-    .meter-img {
-        margin-top: 10%;
-    }
+
 }
 
 @media only screen and (max-width: 1130px) {
@@ -244,10 +361,25 @@
     .shape3 {
         right: -20%;
     }
+        .maintain {
+            padding-top: 1%;
+            padding-bottom: 13%;
+        }
+    
+        .maintain h2 {
+            font-size: 28px;
+        }
+    
+        .maintain p {
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+    
+        .maintain ul {
+            padding-top: 0 !important;
+            font-size: 14px;
+        }
 
-    .meter-img {
-        margin-top: 20%;
-    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -263,9 +395,33 @@
 }
 
 @media only screen and (max-width: 1068px) {
+
+    .maintain {
+            padding-top: 5%;
+            padding-bottom: 10%;
+        }
+    
+        .maintain h2 {
+            font-size: 25px;
+        }
+    
+        .maintain p {
+            font-size: 11px;
+        }
+    
+        .maintain ul {
+            font-size: 12px;
+        }
     .bottom-red {
         margin-top: -7%;
     }
+        .contact h1 {
+            font-size: 27px;
+        }
+    
+        .group-call-1 {
+            width: 25% !important;
+        }
 
     .shape2 {
         left: -25%;
@@ -277,9 +433,7 @@
         transform: rotate(3deg);
     }
 
-    .meter-img {
-        margin-top: 28%;
-    }
+
 
     .circle-area {
         width: 350px;
@@ -350,14 +504,72 @@
         font-size: 12px;
     }
 }
+@media only screen and (max-width: 1000px) {
+    
+        .maintain h2 {
+            font-size: 22px;
+        }
+    
+        .maintain p {
+            font-size: 10px;
+        }
+    
+        .maintain ul {
+            font-size: 11px;
+        }
+}
 
 @media only screen and (max-width: 992px) {
+    .maintenance {
+        background-image: linear-gradient(to top, #e92428,
+            #b02022);
+            padding-top: 0;
+            margin-top: 0;
+    }
+    .contact {
+        background-image: linear-gradient(to top, #e92428,
+            #b02022);
+            padding-top: 0;
+            margin-top: 0;
+            padding-bottom: 0;
+    }
+    .contact h1 {
+        font-size: 35px;
+    }
+    .group-call-1 {
+        width: 25% !important;
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
+    }
+    .mobile-btn-24 {
+        display: block;
+        width: 70%;
+    } 
+    .dispay {
+        display: none !important;
+    }
+    .img-maintin {
+       display: block;
+    }
+    .shap8 {
+        display: none;
+    }
+        .maintain h2 {
+            font-size: 42px;
+            padding-bottom: 2%;
+        }
+    
+        .maintain p {
+            font-size: 20px;
+            padding: 2% 0;
+        }
+    
+        .maintain ul {
+            font-size: 19px;
+        }
     .res {
         display: block;
     }
-        .contact {
-            padding: 70% 0;
-        }
 
     .btn-1 {
         display: none !important;
@@ -414,10 +626,7 @@
         margin-top: -10%;
     }
 
-    .maintenance {
-        background-position: center;
-        background-size: cover;
-    }
+
 
     .bottom-red {
         margin-top: -7%;
@@ -435,9 +644,7 @@
         transform: rotate(0deg);
     }
 
-    .meter-img {
-        margin-top: 5%;
-    }
+
 
     .man {
         padding-top: 10%;
@@ -493,7 +700,9 @@
         font-size: 25px;
         width: 98%;
     }
-
+        .padding {
+            padding-bottom: 35%;
+        }
     .btn-2 {
         width: 40px;
         height: 40px;
@@ -567,6 +776,11 @@
     }
 
 }
+@media only screen and (max-width: 550px) {
+    .padding {
+            padding-bottom: 50%;
+        }
+}
 
 @media only screen and (max-width: 500px) {
     .location-map {
@@ -589,6 +803,10 @@
     .appro2 {
         background-position-x: 12%;
     }
+    .mobile-btn-phone {
+        font-size: 20px;
+    }
+        
 }
 
 @media only screen and (max-width: 468px) {
@@ -616,7 +834,11 @@
     .card-about {
         height: 370px;
     }
+        .padding {
+            padding-bottom: 65%;
+        }
 }
+
 
 @media only screen and (max-width: 430px) {
     .btn-red2 {
@@ -692,9 +914,11 @@
     .btn-red:hover {
         width: 45%;
     }
-        .btn-4 {
-            margin-top: 35%;
-        }
+
+    .btn-4 {
+        margin-top: 35%;
+    }
+
     .btn-red2 {
         width: 50%;
     }
@@ -702,7 +926,19 @@
     .btn-red2:hover {
         width: 55%;
     }
-
+        .mobile-btn-phone {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .mobile-btn-24 {
+            padding-top: 8%;
+        }
+        .mobile-phone {
+            top: -35%;
+        }
+                .padding {
+                    padding-bottom: 35%;
+                }
     .location-map {
         width: 295px;
         height: 295px;

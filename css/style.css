@@ -157,15 +157,26 @@ section {
 }
 
 .maintenance {
-    background-image: url(../images/red-shape.png);
+    background-image: url(../images/red-shape.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-position-y: 0;
+    background-size: 100%;
     position: relative;
+    padding-top: 5%;
+}
+
+.maintain {
+    padding-top: 32%;
+    padding-bottom: 32%;
+}
+
+.img-maintin {
+    display: none;
 }
 
 .bottom-red {
-    margin-top: -8%;
+    margin-top: -10%;
 }
 
 .shape2 {
@@ -378,6 +389,13 @@ ul.list-mantain {
     display: none;
 }
 
+.shap8 {
+    width: 3%;
+    position: absolute;
+    right: 14%;
+    top: 3%;
+}
+
 .support {
     background: url(../images/bgi.jpg) no-repeat;
     background-size: cover;
@@ -385,6 +403,8 @@ ul.list-mantain {
     background-color: #00000065;
     position: relative;
     background-blend-mode: multiply;
+    background-position-y: 1%;
+    margin-top: 0;
 }
 
 .shape5 {
@@ -400,7 +420,7 @@ ul.list-mantain {
 }
 
 .padding {
-    padding-bottom: 25%;
+    padding-bottom: 15%;
 }
 
 .rot {
@@ -417,6 +437,43 @@ ul.list-mantain {
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-color: #d22126;
+}
+
+.mobile-btn-24 {
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    border: 3px solid #b02022;
+    padding: 5%;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    display: none;
+}
+
+.mobile-btn-phone {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.mobile-phone {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -18%;
+}
+
+.position {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
 }
 
 .btn-3 {
@@ -452,30 +509,17 @@ ul.list-mantain {
     border-radius: 100%;
 }
 
-.topto {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-}
 
-.bottomto {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
 
 .contact {
-    background: linear-gradient(to right, #d22126, #b02022);
+    background: url(../images/red-shape2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0;
+    background-size: 100%;
     position: relative;
-    overflow: hidden;
-    padding: 20% 0;
-}
-
-.cont-img {
-    position: absolute;
-    left: -20%;
+    padding-top: 12%;
+    padding-bottom: 12%;
 }
 
 .btn-4 {
@@ -485,20 +529,6 @@ ul.list-mantain {
 
 .btn-pad {
     padding: 1.5% !important;
-}
-
-.index {
-    position: absolute;
-    transform: translate(-50%);
-    left: 50%;
-    z-index: 200;
-    top: 30%;
-    width: 100%;
-}
-
-.none-img {
-    transform: scale(3);
-    padding-top: 50% !important;
 }
 
 .btn-group-2 {
@@ -590,9 +620,11 @@ ul.list-mantain {
     cursor: pointer;
     transition: all 0.5s;
 }
+
 #scroll:hover {
     background: #b02022;
 }
+
 html {
     scroll-behavior: smooth;
 }
