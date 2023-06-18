@@ -84,6 +84,9 @@
     .group-call {
         width: 20%;
     }
+    .grup-call {
+        width: 55% !important;
+    }
     .group-call-1 {
         margin-top: 2% !important;
     }
@@ -440,6 +443,9 @@
     }
     .group-call {
         width: 25% !important;
+    }
+    .grup-call {
+        width: 60% !important;
     }
 }
 
