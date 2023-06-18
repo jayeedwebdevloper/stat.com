@@ -82,7 +82,7 @@
         width: 33%;
     }
     .group-call {
-        width: 50%;
+        width: 20%;
     }
     .group-call-1 {
         margin-top: 2% !important;
@@ -437,6 +437,9 @@
     .circle-3 {
         position: absolute;
         transform: translate(0, 160%);
+    }
+    .group-call {
+        width: 25% !important;
     }
 }
 
