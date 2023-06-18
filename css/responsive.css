@@ -806,6 +806,9 @@
     .mobile-btn-phone {
         font-size: 20px;
     }
+    .card-about {
+        height: 400px;
+    }
         
 }
 
@@ -832,7 +835,7 @@
     }
 
     .card-about {
-        height: 370px;
+        height: 390px;
     }
         .padding {
             padding-bottom: 65%;
@@ -904,6 +907,9 @@
     .btn-3 p {
         font-size: 10px !important;
     }
+    .card-about {
+        height: 470px;
+    }
 }
 
 @media only screen and (max-width: 392px) {
@@ -968,5 +974,8 @@
 
     .appro2 {
         background-position-x: 16%;
+    }
+    .card-about {
+        height: 480px;
     }
 }

@@ -628,3 +628,25 @@ ul.list-mantain {
 html {
     scroll-behavior: smooth;
 }
+
+.container-mine {
+    width: 100%;
+}
+.contentst {
+    display: flex;
+    gap: 12px;
+}
+
+.shr {
+    flex-shrink: 0;
+}
+
+.contentsli {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.contentsli::-webkit-scrollbar {
+    display: none;
+}

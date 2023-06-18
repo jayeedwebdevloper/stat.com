@@ -4,6 +4,11 @@ function clickToggle(plus, minus, ans, head) {
         head.style.color = '#d22126';
         minus.style.display = 'block';
         minus.style.backgroundColor = '#d22126';
+        minus.style.color = '#fff';
+        minus.style.padding = '14px';
+        minus.style.fontSize = '20px';
+        minus.style.paddingTop = '2px';
+        minus.style.paddingBottom = '2px';
         this.style.display = 'none';
     });
     minus.addEventListener('click', function () {
@@ -81,12 +86,33 @@ let scrollbar = document.getElementById('scroll');
 scrollbar.style.opacity = '0';
 
 window.addEventListener('scroll', (e) => {
-    if(window.pageYOffset > 5) {
+    if (window.pageYOffset > 5) {
         scrollbar.style.opacity = '1';
     } else {
         scrollbar.style.opacity = '0';
     }
 });
-scrollbar.addEventListener('click', function(){
+scrollbar.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' })
 })
+
+// slide
+
+const next = document.getElementById('next');
+const prev = document.getElementById('prev');
+const next1 = document.getElementById('next1');
+const prev1 = document.getElementById('prev1');
+const content = document.getElementById('content');
+
+next.addEventListener('click', function(){
+    content.scrollLeft += 300;
+});
+prev.addEventListener('click', function(){
+    content.scrollLeft -= 300;
+});
+next1.addEventListener('click', function(){
+    content.scrollLeft += 300;
+});
+prev1.addEventListener('click', function(){
+    content.scrollLeft -= 300;
+});
