@@ -103,6 +103,11 @@ const prev = document.getElementById('prev');
 const next1 = document.getElementById('next1');
 const prev1 = document.getElementById('prev1');
 const content = document.getElementById('content');
+const next2 = document.getElementById('next2');
+const prev2 = document.getElementById('prev2');
+const next3 = document.getElementById('next3');
+const prev3 = document.getElementById('prev3');
+const content2 = document.getElementById('content2');
 
 next.addEventListener('click', function(){
     content.scrollLeft += 300;
@@ -115,4 +120,16 @@ next1.addEventListener('click', function(){
 });
 prev1.addEventListener('click', function(){
     content.scrollLeft -= 300;
+});
+next2.addEventListener('click', function(){
+    content2.scrollLeft += 300;
+});
+prev2.addEventListener('click', function(){
+    content2.scrollLeft -= 300;
+});
+next3.addEventListener('click', function(){
+    content2.scrollLeft += 300;
+});
+prev3.addEventListener('click', function(){
+    content2.scrollLeft -= 300;
 });

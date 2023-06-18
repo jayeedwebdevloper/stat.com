@@ -189,6 +189,7 @@ section {
     position: absolute;
     left: -5%;
     bottom: 13%;
+    z-index: -1;
 }
 
 .shape3 {
@@ -632,6 +633,7 @@ html {
 .container-mine {
     width: 100%;
 }
+
 .contentst {
     display: flex;
     gap: 12px;
