@@ -573,8 +573,20 @@
             font-size: 11px;
         }
 }
+@media only screen and (min-width: 992px) {
+    .custom-2 {
+        text-decoration-color: transparent;
+    }
 
+}
 @media only screen and (max-width: 992px) {
+    .reflect-img img {
+        transform: rotateX(180deg);
+        transform: rotateY(180deg);
+    }
+    .d-mobile {
+        display: none;
+    }
     #nameMode {
         display: none;
     }
@@ -771,6 +783,9 @@
 
     .approach {
         padding-bottom: 5%;
+    }
+    .approach.dark-icon {
+        background-color: #000000 !important;
     }
 
     .btn-3 {

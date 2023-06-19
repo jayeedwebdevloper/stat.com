@@ -156,26 +156,26 @@ const prev3 = document.getElementById('prev3');
 const content2 = document.getElementById('content2');
 
 next.addEventListener('click', function(){
-    content.scrollLeft += 300;
+    content.scrollLeft += 500;
 });
 prev.addEventListener('click', function(){
-    content.scrollLeft -= 300;
+    content.scrollLeft -= 500;
 });
 next1.addEventListener('click', function(){
-    content.scrollLeft += 300;
+    content.scrollLeft += 350;
 });
 prev1.addEventListener('click', function(){
-    content.scrollLeft -= 300;
+    content.scrollLeft -= 350;
 });
 next2.addEventListener('click', function(){
-    content2.scrollLeft += 300;
+    content2.scrollLeft += 500;
 });
 prev2.addEventListener('click', function(){
-    content2.scrollLeft -= 300;
+    content2.scrollLeft -= 500;
 });
 next3.addEventListener('click', function(){
-    content2.scrollLeft += 300;
+    content2.scrollLeft += 350;
 });
 prev3.addEventListener('click', function(){
-    content2.scrollLeft -= 300;
+    content2.scrollLeft -= 350;
 });
