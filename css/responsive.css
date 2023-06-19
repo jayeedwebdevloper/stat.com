@@ -378,6 +378,24 @@
     .btn-3 {
         width: 70% !important;
     }
+        .my-btn {
+            width: 160px;
+            height: 45px;
+        }
+    
+        .arrow {
+            height: 35px;
+            width: 35px;
+            margin-left: 20px;
+        }
+    
+        .my-btn:hover {
+            width: 170px;
+        }
+    
+        .my-btn:hover .arrow {
+            margin-left: 30px;
+        }
 }
 
 @media only screen and (max-width: 1192px) {
@@ -791,6 +809,19 @@
     .btn-3 {
         width: 95% !important;
     }
+        .my-btn {
+            margin: auto;
+            margin-top: 6%;
+        }
+                .learn-more {
+                    margin: auto;
+                    margin-top: 4%;
+                    width: 165px;
+                }
+        
+                .learn-more:hover {
+                    width: 175px;
+                }
 
 }
 
