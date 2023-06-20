@@ -28,6 +28,142 @@ body {
     justify-content: end;
 }
 
+.call-btn {
+    display: flex;
+    background: #fff !important;
+    position: relative;
+    gap: 8px;
+    height: 65px;
+    padding: 7px;
+    padding-right: 15px;
+    margin-top: 7px;
+}
+.call-btn-2 {
+    display: flex;
+    position: relative;
+    gap: 8px;
+    height: 65px;
+    padding: 7px;
+    padding-right: 30px;
+    margin: auto;
+    margin-top: 2%;
+}
+.location-btn {
+    text-align: start;
+}
+.location-btn img {
+    padding-right: 10px;
+}
+.location-btn-phone {
+    display: flex;
+    background: linear-gradient(to right, #e92428, #b02022);
+    position: relative;
+    gap: 8px;
+    height: 65px;
+    padding: 7px;
+    padding-right: 20px;
+    margin-top: 55px;
+    margin-left: 35px;
+    align-items: center;
+}
+.location-icon-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.location-btn-content {
+    margin-left: 15px;
+}
+.location-btn-content p {
+    padding: 0;
+    margin: 0;
+}
+.location-btn-content h5 {
+    padding: 0;
+    margin: 0;
+}
+.hours-call {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10%;
+}
+
+.phone-icon-btn {
+    background: #000;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.phone-icon-btn-dark {
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.phone-icon-btn-2 {
+    background: #000;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.phone-icon-btn-2 img {
+    width: 100%;
+}
+
+.phone-number-btn {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+.phone-number-btn-2 {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.number-btn {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 18px;
+}
+
+.line-btn {
+    width: 90px;
+    height: 2px;
+    background: #d22126;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+.btn-phone-icon {
+    background: #000 !important;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+}
+
+.btn-phone-icon img {
+    width: 95%;
+}
+
 .change-mode {
     width: 10%;
 }
@@ -41,6 +177,9 @@ body {
     font-weight: 500;
     align-items: center;
     gap: 8px;
+    width: 125px;
+    height: 45px;
+    padding: 0 5px;
 }
 
 .btn-mode-dark {
@@ -52,6 +191,9 @@ body {
     font-weight: 500;
     align-items: center;
     gap: 8px;
+    width: 125px;
+    height: 45px;
+    padding: 0 5px;
 }
 
 #light {
@@ -80,7 +222,7 @@ body {
 
 .btn-dark-mobile {
     background-color: #000;
-    border: 1px solid #fff;
+    box-shadow: 0 0 4px #fff;
 }
 
 #dark {
@@ -133,34 +275,18 @@ section {
     overflow: hidden;
 }
 
-.call-us {
-    font-size: 13px;
-}
 
 .phone-number {
     font-size: 16px;
     position: relative;
 }
 
-.line {
-    background: #d22126;
-    height: 1.5px;
-    width: 25%;
-    position: absolute;
-    right: 10%;
-    top: 55%;
-}
 
-.call-button {
-    margin-left: 2px;
-}
-
-.call-button img {
-    padding: 20% 0;
-}
 
 .menu {
-    width: 80%;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
 }
 
 .btn-2 {
@@ -327,20 +453,6 @@ section {
 
 ul.list-mantain {
     list-style: url(../images/list-style.png);
-}
-
-.location-btn {
-    text-align: start;
-    padding-left: 5%;
-}
-
-.locat-btn {
-    background: linear-gradient(to right, #e92428, #b02022);
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    transition: all 0.5s;
-    width: 45%;
 }
 
 .locat-btn:hover {
@@ -897,13 +1009,16 @@ html {
     width: 180px;
     color: #fff;
 }
+
 .my-btn:hover .arrow {
     margin-left: 35px;
 }
+
 .learn-more {
     margin: 4% 0;
     width: 172px;
 }
+
 .learn-more:hover {
     width: 182px;
 }

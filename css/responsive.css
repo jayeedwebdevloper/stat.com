@@ -84,21 +84,17 @@
         width: 33%;
     }
 
-    .group-call {
-        width: 20%;
-    }
-
-    .grup-call {
-        width: 55% !important;
-    }
 
     .group-call-1 {
         margin-top: 2% !important;
     }
 
     .btn-mode {
-        font-size: 10px;
-        padding: 5%;
+        padding: 0 5px;
+    }
+
+    .btn-mode-dark {
+        padding: 0 5px;
     }
 
 
@@ -218,55 +214,10 @@
         font-size: 30px;
     }
 
-    .group-call {
-        height: 70px;
-    }
-
-    .group-call-1 {
-        width: 20% !important;
-    }
-
-    .btn-mode {
-        font-size: 8px;
-        padding: 3%;
-    }
-
-    #light {
-        width: 25px;
-        height: 25px;
-    }
-
-    #dark {
-        width: 25px;
-        height: 25px;
-    }
-
-    .btn-mode-dark {
-        font-size: 8px;
-        padding: 3%;
-    }
-
-    #light-dark {
-        width: 30px;
-        height: 30px;
-    }
-
-    #dark-dark {
-        width: 35px;
-        height: 35px;
-    }
-
-    .call-us {
-        font-size: 10px;
-    }
 
     .icon {
         width: 70px;
         height: 70px;
-    }
-
-    .line {
-        width: 20%;
     }
 
     .phone-number {
@@ -294,9 +245,6 @@
         width: 100px;
     }
 
-    .locat-btn {
-        width: 65%;
-    }
 
     .red-content {
         padding-left: 1% !important;
@@ -418,6 +366,46 @@
     .my-btn:hover .arrow {
         margin-left: 30px;
     }
+
+    .call-btn {
+        height: 55px;
+        padding: 5px;
+        padding-right: 12px;
+        margin-top: 7px;
+    }
+    .call-btn-2 {
+        margin-top: 3%;
+    }
+    .phone-icon-btn {
+        height: 45px;
+        width: 45px;
+    }
+
+    .phone-icon-btn img {
+        width: 50%;
+    }
+
+    .phone-number-btn {
+        font-size: 13px;
+    }
+
+    .number-btn {
+        font-size: 15px;
+    }
+
+    .line-btn {
+        top: 35px;
+    }
+
+    .menu {
+        width: 55px;
+        height: 55px;
+        margin-top: 2px;
+    }
+        .location-btn img {
+            padding-right: 0;
+            width: 15%;
+        }
 }
 
 @media only screen and (max-width: 1192px) {
@@ -434,9 +422,10 @@
         right: -14%;
         top: 8%;
     }
-        .logo img {
-            width: 58%;
-        }
+
+    .logo img {
+        width: 58%;
+    }
 
 }
 
@@ -485,12 +474,12 @@
         transform: translate(0, 160%);
     }
 
-    .group-call {
-        width: 25% !important;
+    .btn-mode {
+        width: 120px;
     }
 
-    .grup-call {
-        width: 60% !important;
+    .btn-mode-dark {
+        width: 120px;
     }
 }
 
@@ -627,6 +616,10 @@
         text-decoration-color: transparent;
     }
 
+    .btn-phone-icon {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -656,14 +649,14 @@
     }
 
     .btn-mode {
-        padding: 5%;
-        font-size: 0;
+        padding: 4px;
+        height: fit-content;
         width: fit-content;
     }
 
     .btn-mode-dark {
-        padding: 5%;
-        font-size: 0;
+        padding: 4px;
+        height: fit-content;
         width: fit-content;
     }
 
@@ -704,12 +697,6 @@
 
     .contact h1 {
         font-size: 35px;
-    }
-
-    .group-call-1 {
-        width: 30% !important;
-        margin-top: 5% !important;
-        margin-bottom: 5% !important;
     }
 
     .mobile-btn-24 {
@@ -758,10 +745,6 @@
     .btn-4 {
         width: 40%;
         margin-top: 5%;
-    }
-
-    .menu {
-        width: 55%;
     }
 
     .menu-btn {
@@ -820,14 +803,16 @@
         transform: rotate(0deg);
     }
 
-
+    .menu {
+        width: 45px;
+        height: 45px;
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
     .man {
         padding-top: 10%;
-    }
-
-    .locat-btn {
-        width: 40%;
     }
 
     .card-about {
@@ -882,13 +867,31 @@
         width: 68%;
     }
 
+    .call-btn {
+        display: none;
+    }
+    .location-btn img {
+        padding-right: 10px;
+    }
+
+    .location-btn-phone {
+      margin: auto;
+        margin-top: 55px;
+    }
+
+    .location-btn-content p {
+        font-size: 15px;
+    }
+
+    .location-btn-content h5 {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-
-    .menu {
-        width: 48%;
-    }
+    .location-btn img {
+            width: 20%;
+        }
 
     .btn-4 {
         margin-top: 1%;
@@ -959,10 +962,6 @@
         transform: rotate(-5deg);
     }
 
-    .locat-btn {
-        width: 60%;
-    }
-
     .second-card-about {
         display: none;
     }
@@ -979,6 +978,37 @@
         font-size: 12px !important;
     }
 
+}
+@media only screen and (max-width: 576px) {
+    .location-btn img {
+            width: 10%;
+        }
+}
+
+@media only screen and (max-width: 572px) {
+    .menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-phone-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-phone-icon img {
+        width: 100%;
+    }
+
+    .btn-mode {
+        height: 45px;
+        width: 45px;
+    }
+
+    .btn-mode-dark {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -1077,10 +1107,6 @@
         width: 78%;
     }
 
-    .menu {
-        width: 45%;
-    }
-
     .btn-2 {
         width: 35px;
         height: 35px;
@@ -1112,10 +1138,6 @@
         margin: 2% 0;
     }
 
-    .locat-btn {
-        width: 80%;
-    }
-
     .choose-content h5 {
         font-size: 15px;
         padding-left: 8% !important;
@@ -1135,10 +1157,9 @@
 }
 
 @media only screen and (max-width: 392px) {
-    #light {
-        width: 28px;
-        height: 28px;
-    }
+    .location-btn img {
+            width: 15%;
+        }
 
     .btn-red {
         width: 42%;
