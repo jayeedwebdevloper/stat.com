@@ -18,11 +18,12 @@
         padding-bottom: 28%;
     }
 }
+
 @media only screen and (max-width: 1968px) {
     .contact {
-            padding-top: 11%;
-            padding-bottom: 11%;
-        }
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
 }
 
 @media only screen and (max-width: 1892px) {
@@ -44,10 +45,11 @@
         padding-top: 20%;
         padding-bottom: 20%;
     }
-        .contact {
-            padding-top: 10%;
-            padding-bottom: 10%;
-        }
+
+    .contact {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
 }
 
 @media only screen and (max-width: 1520px) {
@@ -81,21 +83,25 @@
     .btn-red2 {
         width: 33%;
     }
+
     .group-call {
         width: 20%;
     }
+
     .grup-call {
         width: 55% !important;
     }
+
     .group-call-1 {
         margin-top: 2% !important;
     }
-        .btn-mode {
-            font-size: 10px;
-            padding: 5%;
-        }
-    
-       
+
+    .btn-mode {
+        font-size: 10px;
+        padding: 5%;
+    }
+
+
 
     .btn-red:hover {
         background: linear-gradient(to left, #e92428, #b02022);
@@ -112,6 +118,7 @@
     .lineShape {
         background-size: 60%;
     }
+
     .lineShape-dark {
         background-size: 60%;
     }
@@ -144,9 +151,11 @@
     .bottom-red {
         margin-top: -10%;
     }
+
     .contact h1 {
         font-size: 35px;
     }
+
     .shape2 {
         left: -14%;
         bottom: 13%;
@@ -163,6 +172,7 @@
         padding-top: 1%;
         padding-bottom: 15%;
     }
+
     .contact {
         padding-top: 9%;
         padding-bottom: 9%;
@@ -171,70 +181,81 @@
 
 @media only screen and (max-width: 1230px) {
     .maintain {
-            padding-top: 1%;
-            padding-bottom: 13%;
-        }
+        padding-top: 1%;
+        padding-bottom: 13%;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
     .maintenance {
         background-color: #fff;
     }
+
     .maintenance-dark {
         background-color: #000000;
     }
-        .maintain {
-            padding-top: 7%;
-            padding-bottom: 13%;
-        }
-        .maintain h2 {
-            font-size: 28px;
-        }
-        .maintain p {
-            font-size: 13px;
-            margin-bottom: 0;
-        }
-        .maintain ul {
-            padding-top: 0 !important;
-            font-size: 14px;
-        }
-        .contact h1 {
-            font-size: 30px;
-        }
-        .group-call {
-            height: 70px;
-        }
-        .group-call-1 {
-            width: 20% !important;
-        }
-                .btn-mode {
-                    font-size: 8px;
-                    padding: 3%;
-                }
-        
-                #light {
-                    width: 25px;
-                    height: 25px;
-                }
-        
-                #dark {
-                    width: 25px;
-                    height: 25px;
-                }
-                .btn-mode-dark {
-                    font-size: 8px;
-                    padding: 3%;
-                }
-        
-                #light-dark {
-                    width: 30px;
-                    height: 30px;
-                }
-        
-                #dark-dark {
-                    width: 35px;
-                    height: 35px;
-                }
+
+    .maintain {
+        padding-top: 7%;
+        padding-bottom: 13%;
+    }
+
+    .maintain h2 {
+        font-size: 28px;
+    }
+
+    .maintain p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .maintain ul {
+        padding-top: 0 !important;
+        font-size: 14px;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .group-call {
+        height: 70px;
+    }
+
+    .group-call-1 {
+        width: 20% !important;
+    }
+
+    .btn-mode {
+        font-size: 8px;
+        padding: 3%;
+    }
+
+    #light {
+        width: 25px;
+        height: 25px;
+    }
+
+    #dark {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn-mode-dark {
+        font-size: 8px;
+        padding: 3%;
+    }
+
+    #light-dark {
+        width: 30px;
+        height: 30px;
+    }
+
+    #dark-dark {
+        width: 35px;
+        height: 35px;
+    }
+
     .call-us {
         font-size: 10px;
     }
@@ -378,24 +399,25 @@
     .btn-3 {
         width: 70% !important;
     }
-        .my-btn {
-            width: 160px;
-            height: 45px;
-        }
-    
-        .arrow {
-            height: 35px;
-            width: 35px;
-            margin-left: 20px;
-        }
-    
-        .my-btn:hover {
-            width: 170px;
-        }
-    
-        .my-btn:hover .arrow {
-            margin-left: 30px;
-        }
+
+    .my-btn {
+        width: 160px;
+        height: 45px;
+    }
+
+    .arrow {
+        height: 35px;
+        width: 35px;
+        margin-left: 20px;
+    }
+
+    .my-btn:hover {
+        width: 170px;
+    }
+
+    .my-btn:hover .arrow {
+        margin-left: 30px;
+    }
 }
 
 @media only screen and (max-width: 1192px) {
@@ -412,7 +434,9 @@
         right: -14%;
         top: 8%;
     }
-
+        .logo img {
+            width: 58%;
+        }
 
 }
 
@@ -428,24 +452,25 @@
     .shape3 {
         right: -20%;
     }
-        .maintain {
-            padding-top: 1%;
-            padding-bottom: 13%;
-        }
-    
-        .maintain h2 {
-            font-size: 28px;
-        }
-    
-        .maintain p {
-            font-size: 13px;
-            margin-bottom: 0;
-        }
-    
-        .maintain ul {
-            padding-top: 0 !important;
-            font-size: 14px;
-        }
+
+    .maintain {
+        padding-top: 1%;
+        padding-bottom: 13%;
+    }
+
+    .maintain h2 {
+        font-size: 28px;
+    }
+
+    .maintain p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .maintain ul {
+        padding-top: 0 !important;
+        font-size: 14px;
+    }
 
 }
 
@@ -459,9 +484,11 @@
         position: absolute;
         transform: translate(0, 160%);
     }
+
     .group-call {
         width: 25% !important;
     }
+
     .grup-call {
         width: 60% !important;
     }
@@ -470,31 +497,33 @@
 @media only screen and (max-width: 1068px) {
 
     .maintain {
-            padding-top: 5%;
-            padding-bottom: 10%;
-        }
-    
-        .maintain h2 {
-            font-size: 25px;
-        }
-    
-        .maintain p {
-            font-size: 11px;
-        }
-    
-        .maintain ul {
-            font-size: 12px;
-        }
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    .maintain h2 {
+        font-size: 25px;
+    }
+
+    .maintain p {
+        font-size: 11px;
+    }
+
+    .maintain ul {
+        font-size: 12px;
+    }
+
     .bottom-red {
         margin-top: -7%;
     }
-        .contact h1 {
-            font-size: 27px;
-        }
-    
-        .group-call-1 {
-            width: 25% !important;
-        }
+
+    .contact h1 {
+        font-size: 27px;
+    }
+
+    .group-call-1 {
+        width: 25% !important;
+    }
 
     .shape2 {
         left: -25%;
@@ -577,120 +606,143 @@
         font-size: 12px;
     }
 }
+
 @media only screen and (max-width: 1000px) {
-    
-        .maintain h2 {
-            font-size: 22px;
-        }
-    
-        .maintain p {
-            font-size: 10px;
-        }
-    
-        .maintain ul {
-            font-size: 11px;
-        }
+
+    .maintain h2 {
+        font-size: 22px;
+    }
+
+    .maintain p {
+        font-size: 10px;
+    }
+
+    .maintain ul {
+        font-size: 11px;
+    }
 }
+
 @media only screen and (min-width: 992px) {
     .custom-2 {
         text-decoration-color: transparent;
     }
 
 }
+
 @media only screen and (max-width: 992px) {
     .reflect-img img {
         transform: rotateX(180deg);
         transform: rotateY(180deg);
     }
+
     .d-mobile {
         display: none;
     }
+
     #nameMode {
         display: none;
     }
+
     #dark {
         display: none;
     }
+
     #nameMode-dark {
         display: none;
     }
+
     #light-dark {
         display: none;
     }
+
     .btn-mode {
         padding: 5%;
         font-size: 0;
         width: fit-content;
     }
+
     .btn-mode-dark {
         padding: 5%;
         font-size: 0;
         width: fit-content;
     }
+
     #light {
         width: 35px;
         height: 35px;
     }
+
     .maintenance {
         background-image: linear-gradient(to top, #e92428,
-            #b02022);
-            padding-top: 0;
-            margin-top: 0;
+                #b02022);
+        padding-top: 0;
+        margin-top: 0;
     }
+
     .maintenance-dark {
         background-image: linear-gradient(to top, #e92428,
-            #b02022);
-            padding-top: 0;
-            margin-top: 0;
+                #b02022);
+        padding-top: 0;
+        margin-top: 0;
     }
+
     .contact {
         background-image: linear-gradient(to top, #e92428,
-            #b02022);
-            padding-top: 0;
-            margin-top: 0;
-            padding-bottom: 0;
+                #b02022);
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
     }
+
     .contact-dark {
         background-image: linear-gradient(to top, #e92428,
-            #b02022);
-            padding-top: 0;
-            margin-top: 0;
-            padding-bottom: 0;
+                #b02022);
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
     }
+
     .contact h1 {
         font-size: 35px;
     }
+
     .group-call-1 {
         width: 30% !important;
         margin-top: 5% !important;
         margin-bottom: 5% !important;
     }
+
     .mobile-btn-24 {
         display: block;
         width: 70%;
-    } 
+    }
+
     .dispay {
         display: none !important;
     }
+
     .img-maintin {
-       display: block;
+        display: block;
     }
+
     .shap8 {
         display: none;
     }
-        .maintain h2 {
-            font-size: 42px;
-            padding-bottom: 2%;
-        }
-    
-        .maintain p {
-            font-size: 20px;
-            padding: 2% 0;
-        }
-    
-        .maintain ul {
-            font-size: 19px;
-        }
+
+    .maintain h2 {
+        font-size: 42px;
+        padding-bottom: 2%;
+    }
+
+    .maintain p {
+        font-size: 20px;
+        padding: 2% 0;
+    }
+
+    .maintain ul {
+        font-size: 19px;
+    }
+
     .res {
         display: block;
     }
@@ -802,6 +854,7 @@
     .approach {
         padding-bottom: 5%;
     }
+
     .approach.dark-icon {
         background-color: #000000 !important;
     }
@@ -809,19 +862,25 @@
     .btn-3 {
         width: 95% !important;
     }
-        .my-btn {
-            margin: auto;
-            margin-top: 6%;
-        }
-                .learn-more {
-                    margin: auto;
-                    margin-top: 4%;
-                    width: 165px;
-                }
-        
-                .learn-more:hover {
-                    width: 175px;
-                }
+
+    .my-btn {
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    .learn-more {
+        margin: auto;
+        margin-top: 4%;
+        width: 165px;
+    }
+
+    .learn-more:hover {
+        width: 175px;
+    }
+
+    .logo img {
+        width: 68%;
+    }
 
 }
 
@@ -840,9 +899,11 @@
         font-size: 25px;
         width: 98%;
     }
-        .padding {
-            padding-bottom: 35%;
-        }
+
+    .padding {
+        padding-bottom: 35%;
+    }
+
     .btn-2 {
         width: 40px;
         height: 40px;
@@ -852,9 +913,6 @@
         width: 90%;
     }
 
-    .logo img {
-        width: 50%;
-    }
 
     .btn-red {
         width: 32%;
@@ -878,6 +936,7 @@
         background-position-x: 10%;
         background-position-y: center;
     }
+
     .lineShape-dark {
         background: url(../images/line-shape2-dark.png) no-repeat;
         background-position-x: 10%;
@@ -921,10 +980,11 @@
     }
 
 }
+
 @media only screen and (max-width: 550px) {
     .padding {
-            padding-bottom: 50%;
-        }
+        padding-bottom: 50%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -932,6 +992,7 @@
         width: 365px;
         height: 365px;
     }
+
     .location-map-dark {
         width: 365px;
         height: 365px;
@@ -952,16 +1013,19 @@
     .appro2 {
         background-position-x: 12%;
     }
+
     .appro2-dark {
         background-position-x: 12%;
     }
+
     .mobile-btn-phone {
         font-size: 20px;
     }
+
     .card-about {
         height: 400px;
     }
-        
+
 }
 
 @media only screen and (max-width: 468px) {
@@ -989,9 +1053,10 @@
     .card-about {
         height: 390px;
     }
-        .padding {
-            padding-bottom: 65%;
-        }
+
+    .padding {
+        padding-bottom: 65%;
+    }
 }
 
 
@@ -1009,7 +1074,7 @@
     }
 
     .logo img {
-        width: 70%;
+        width: 78%;
     }
 
     .menu {
@@ -1038,6 +1103,7 @@
     .lineShape {
         background-position-x: 15%;
     }
+
     .lineShape-dark {
         background-position-x: 15%;
     }
@@ -1062,6 +1128,7 @@
     .btn-3 p {
         font-size: 10px !important;
     }
+
     .card-about {
         height: 470px;
     }
@@ -1069,9 +1136,10 @@
 
 @media only screen and (max-width: 392px) {
     #light {
-            width: 28px;
-            height: 28px;
-        }
+        width: 28px;
+        height: 28px;
+    }
+
     .btn-red {
         width: 42%;
     }
@@ -1091,23 +1159,29 @@
     .btn-red2:hover {
         width: 55%;
     }
-        .mobile-btn-phone {
-            font-size: 15px;
-            line-height: 20px;
-        }
-        .mobile-btn-24 {
-            padding-top: 8%;
-        }
-        .mobile-phone {
-            top: -35%;
-        }
-                .padding {
-                    padding-bottom: 35%;
-                }
+
+    .mobile-btn-phone {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .mobile-btn-24 {
+        padding-top: 8%;
+    }
+
+    .mobile-phone {
+        top: -35%;
+    }
+
+    .padding {
+        padding-bottom: 35%;
+    }
+
     .location-map {
         width: 295px;
         height: 295px;
     }
+
     .location-map-dark {
         width: 295px;
         height: 295px;
@@ -1138,9 +1212,11 @@
     .appro2 {
         background-position-x: 16%;
     }
+
     .appro2-dark {
         background-position-x: 16%;
     }
+
     .card-about {
         height: 480px;
     }
